@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vahid Rahimzadeh - Personal Website</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <style>
+      :root {
+        scroll-behavior: smooth;
+      }
+      
+      body {
+        display: flex;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      .sticky-sidebar {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+      }
+
+      .active-link {
+        background-color: #344944;
+        color: white;
+      }
+
+      .circle-deep-green {
+        background: radial-gradient(circle at 50% 50%, rgba(55, 78, 71, 1) 0%, rgba(55, 78, 71, 0.4) 100%);
+        filter: blur(59px);
+        position: absolute;
+        z-index: -1;
+      }
+    </style>
+  <script type="module" crossorigin src="/assets/index-AlJbz_Jp.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-dy29kGct.css">
+</head>
+<body class="bg-gray-100" id="app">
+    <div class="container mx-auto p-4 flex flex-col md:flex-row">
+        <!-- Left Column -->
+        <div class="md:w-1/4 bg-gradient-to-br from-primary-50/10 to-primary-100/80 p-4 rounded-lg shadow-md sticky-sidebar flex flex-col items-stretch text-primary-900 z-10">
+          <img src="profile-image.jpg" alt="Profile Picture" class="rounded-full w-32 h-32 mx-auto mb-4">
+          <h1 class="text-xl font-semibold text-center mb-2">Vahid Rahimzadeh</h1>
+          <div class="flex justify-center space-x-2 mb-4">
+            <a href="https://telegram.me/vavredev" class="text-primary-500"><i class="fab text-2xl fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/vavre/" class="text-primary-700"><i class="fab text-2xl fa-linkedin"></i></a>
+            <!-- <a href="#" class="text-pink-600"><i class="fab text-2xl fa-instagram"></i></a> -->
+            <a href="https://x.com/vavredev" class="text-primary-400"><i class="fab text-2xl fa-twitter"></i></a>
+          </div>
+          <p class="text-center mb-2">
+            <a href="tel:+989217412088" class="text-primary-700 hover:text-primary-900 transition duration-300">
+              +989217412088
+            </a>
+          </p>
+          <p class="text-center mb-4">
+            <a href="mailto:vahyd@live.com" class="text-primary-700 hover:text-primary-900 transition duration-300">
+              vahyd@live.com
+            </a>
+          </p>
+          <nav>
+            <ul class="space-y-2 relative text-center">
+              <li><a href="#about" class="block hover:bg-primary-100 p-2 rounded" id="link-about">About Me</a></li>
+              <li><a href="#education" class="block hover:bg-primary-100 p-2 rounded" id="link-education">Education</a></li>
+              <li><a href="#publications" class="block hover:bg-primary-100 p-2 rounded" id="link-publications">Publications</a></li>
+              <li><a href="#experiences" class="block hover:bg-primary-100 p-2 rounded" id="link-experiences">Experiences</a></li>
+              <li><a href="#honors" class="block hover:bg-primary-100 p-2 rounded" id="link-honors">Honor and Awards</a></li>
+              <li><a href="#projects" class="block hover:bg-primary-100 p-2 rounded" id="link-projects">Projects</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="md:w-3/4 md:ml-4 mt-4 md:mt-0">
+          <header class="relative bg-gradient-to-br from-white to-primary-50/50 p-6 rounded-b-lg shadow-md backdrop-blur-md bg-opacity-70" id="about z-10 border border-primary-100">
+            <div class="circle-deep-green w-60 h-40 rounded-full absolute  right-0 -bottom-20 transform -translate-x-1/2"></div>
+            <div class="circle-deep-green w-40 h-40 rounded-full absolute  left-0 -bottom-10 transform -translate-x-1/2"></div>
+            <div class="relative z-10">
+                <div class="container mx-auto">
+                    <div class="flex justify-between items-center mb-4">
+                        <div class="flex space-x-4 text-xl">
+                            <a href="https://telegram.me/vavredev" class="text-gray-600 hover:text-gray-800"><i class="fab fa-telegram"></i></a>
+                            <a href="https://www.linkedin.com/in/vavre/" class="text-gray-600 hover:text-gray-800"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://x.com/vavredev">
+                            <i class="fab fa-twitter"></i></a>
+                        </div>
+                        <button class="bg-primary-600 text-white px-4 py-2 rounded hover:bg-primary-700 transition duration-300">
+                            Download CV
+                        </button>
+                    </div>
+                    <div class="text-gray-700">
+                        <p class="mb-2"><i class="fas fa-phone mr-2"></i>+989217412088</p>
+                        <p><i class="fas fa-envelope mr-2"></i>vahyd@live.com</p>
+                    </div>
+                    <p class="mt-6 text-lg text-gray-800 leading-relaxed">
+                        I'm a Passionate Researcher with a Love for AI and Everything About it. As a Lifelong
+                        Learner I'm Eager to Learn New Material Everyday and Take on New Challenges and
+                        Collaborate with Wonderful People.
+                    </p>
+                </div>
+            </div>
+          </header>
+
+          <section id="education" class="relative mt-4 bg-gradient-to-br from-white to-primary-50/50 p-6 rounded-lg shadow-md mb-4 backdrop-blur-md bg-opacity-80 z-10 border border-primary-100">
+              <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] bottom-4 left-0 transform -translate-x-1/2"></div>
+              <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] top-1/2 right-0 transform translate-x-1/4"></div>
+              <div class="relative z-10">
+                  <h2 class="text-lg font-bold mb-6 bg-primary-50 border border-primary-200 inline-block px-4 py-2 rounded">Education</h2>
+              
+                  <div class="mb-8">
+                      <h3 class="text-xl font-semibold flex justify-between items-center">
+                          <span class="text-primary-800">M.Sc in Information Technology Engineering</span>
+                          <span class="text-primary-500 font-light text-sm  border border-primary-200 px-2 py-1 rounded">2022-Present</span>
+                      </h3>
+                      <p class="text-gray-700 font-medium">University of Tehran</p>
+                      <p class="text-gray-600">Effective GPA: <span class="font-semibold">18.92/20</span></p>
+                      <p class="font-medium mt-2"><span class="font-bold">Thesis:</span> User Behavior Modeling Using Large Language Models</p>
+                      <p class="font-medium mt-2"><span class="font-bold">Activities:</span></p>
+                      <ul class="list-disc list-inside ml-4 text-gray-700">
+                          <li>Chief Teaching Assistant in Data Mining</li>
+                          <li>Teaching Assistant in NLP</li>
+                          <li>Intelligent Information Retrieval and Large Language Models</li>
+                      </ul>
+                  </div>
+              
+                  <div class="border-t border-gray-300 pt-6">
+                      <h3 class="text-xl font-semibold flex justify-between items-center">
+                          <span class="text-primary-800">B.Sc in Mechatronics, Automation and Robotics Engineering</span>
+                          <span class="text-primary-500 font-light text-sm  border border-primary-200 px-2 py-1 rounded">2016-2021</span>
+                      </h3>
+                      <p class="text-gray-700 font-medium">Isfahan University of Technology</p>
+                      <p class="text-gray-600">Effective GPA: <span class="font-semibold">15.59/20</span></p>
+                      <p class="font-medium mt-2"><span class="font-bold">Final Project:</span></p>
+                      <p class="ml-4 text-gray-700">Developing real-time Android application for dynamic balancing of rotating machineries using 4 runs method and USB MEMS accelerometer. Supported and used by a company in vibration industry.</p>
+                      <p class="text-gray-600 ml-4">Grade: <span class="font-semibold">19.5/20</span></p>
+                      <p class="font-medium mt-2"><span class="font-bold">Activities:</span></p>
+                      <ul class="list-disc list-inside ml-4 text-gray-700">
+                          <li>Senior Member on IoT & Robotics R&D Cell</li>
+                          <li>Winner of the Outstanding R&D Cell in IUT, 2019</li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+          
+          <section id="publications" class="relative bg-gradient-to-br from-white to-primary-50/80 p-6 rounded-lg shadow-md mb-4 backdrop-blur-md bg-opacity-60 z-10 border border-primary-100">
+              <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] -bottom-52 right-0 transform -translate-x-1/2"></div>
+              <div class="relative z-10">
+                  <h2 class="text-lg font-bold mb-6 bg-primary-50 border border-primary-200 inline-block px-4 py-2 rounded">Publications</h2>
+                 
+                  <div class="mb-4">
+                      <h3 class="text-lg font-bold"><span class="text-primary-800">PerCul: Story-Based Cultural Evaluation of LLMs in Persian</span></h3>
+                      <p class="text-gray-600">Submitted for NAACL 2025</p>
+                      <p class="text-gray-700 italic">V. Rahimzadeh, E. Mousavi, Y. Yaghobzadeh, A. Shakery, M.T. Pilehvar <sup>*</sup>equal contribution</p>
+                  </div>
+                  
+                  <div class="border-t border-gray-300 pt-4">
+                      <h3 class="text-lg font-bold"><span class="text-primary-800">From Millions of Tweets To Actionable Insights: Leveraging LLMs For User Understanding</span></h3>
+                      <p class="text-gray-600">Submitted for ECIR 2025</p>
+                      <p class="text-gray-700 italic">V. Rahimzadeh, A. Hamzepour, A. Shakery, M. Asadpour</p>
+                  </div>
+              </div>
+          </section>
+          
+          <section id="experiences" class="relative bg-white p-6 rounded-lg shadow-md mb-4 backdrop-blur-md bg-opacity-60 z-10 border border-primary-100">
+              <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] -bottom-52 right-0 transform -translate-x-1"></div>
+              <div class="relative z-10">
+                  <h2 class="text-lg font-bold mb-6 bg-primary-50 border border-primary-200 inline-block px-4 py-2 rounded">Notable Experiences</h2>
+                  
+                  <div class="mb-8">
+                      <h3 class="text-lg font-semibold flex justify-between items-center">
+                          <span class="text-primary-800">AI Engineer | LLMs, LLMOps, VLMs</span>
+                          <span class="text-primary-500 font-light  border  text-sm border-primary-200 px-2 py-1 rounded">2023-Present</span>
+                      </h3>
+                      <p class="text-gray-700 font-medium mb-3">ModAI App, RamonAI</p>
+                      <ul class="list-disc list-inside space-y-2">
+                          <li><span class="font-semibold">Maintaining</span> the main GitLab <span class="font-bold">Repository</span> with <span class="font-bold">7+</span> people actively working on it</li>
+                          <li><span class="font-semibold">Scalable Deployment & Monitoring</span> of LLMs</li>
+                          <li><span class="font-semibold">Implementing & Monitoring</span> LLM based Real-time pipelines on <span class="font-bold">Millions</span> of data using scalable queuing, databases and monitoring systems</li>
+                          <li><span class="font-semibold">Implementing complex Chatbot backend</span> using cutting-edge tools</li>
+                          <li><span class="font-semibold">Using and Fine-tuning</span> Different <span class="font-bold">LLMs & VLMs</span></li>
+                          <li><span class="font-semibold">Implementing various RAG based Solutions</span> based on LLMs and <span class="font-bold">KBs</span> in various forms and modalities</li>
+                          <li><span class="font-semibold">Involving in complex semantic/lexical search</span> and retrieval systems using <span class="font-bold">VectorDBs</span></li>
+                      </ul>
+                  </div>
+                  
+                  <div class="border-t border-gray-300 pt-6">
+                      <h3 class="text-lg font-semibold flex justify-between items-center">
+                          <span class="text-primary-800">Co-Founder, Software and AI Engineer</span>
+                          <span class="text-primary-500 font-light text-sm  border border-primary-200 px-2 py-1 rounded">2018-2023</span>
+                      </h3>
+                      <p class="text-gray-700 font-medium mb-3">Qorfechi Co.</p>
+                      <ul class="list-disc list-inside space-y-2">
+                          <li><span class="font-semibold">In charge</span> of the Front-End and SEO Groups</li>
+                          <li>Planned, designed and developed <span class="font-bold">multiple world class standard websites</span> using the latest technologies</li>
+                          <li><span class="font-semibold">Implementing AI based features</span> in Dashboards</li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+          
+          <section id="honors" class="relative bg-white p-6 rounded-lg shadow-md mb-4 backdrop-blur-md bg-opacity-60 z-10 border border-primary-100">
+              <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] bottom-4 left- transform -translate-x-1/2"></div>
+              <div class="relative z-10">
+                  <h2 class="text-lg font-bold mb-6 bg-primary-50 border border-primary-200 inline-block px-4 py-2 rounded">Honors & Awards</h2>
+                  <ul class="list-disc list-inside space-y-2">
+                      <li>Ranked <span class="font-bold">2nd</span> in <span class="font-semibold">Nationwide</span> Graduate Level University Entrance Test of <span class="font-bold">Information Technology</span></li>
+                      <li>Ranked <span class="font-bold">6th</span> in <span class="font-semibold">Nationwide</span> Graduate Level University Entrance Test of <span class="font-bold">Computer Engineering</span></li>
+                      <li>Outstanding R&D Group of <span class="font-bold">IUT</span> in <span class="font-bold">IoT & Robotics</span> Group</li>
+                      <li>Ranked among <span class="font-bold">top 0.5%</span> in <span class="font-semibold">Nationwide</span> Bachelor Level University Entrance Test of <span class="font-bold">Mathematics and Physics</span></li>
+                  </ul>
+              </div>
+          </section>
+        </div>
+    </div>
+    
+    <!-- JavaScript to handle the active link on scroll -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const sections = document.querySelectorAll("section");
+        const navLi = document.querySelectorAll("nav ul li a");
+        
+        const changeActiveLink = () => {
+          let current = "";
+      
+          sections.forEach((section) => {
+            const sectionTop = section.offsetTop - 20;
+            const sectionHeight = section.clientHeight;
+            const sectionBottom = sectionTop + sectionHeight;
+      
+            if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+              current = section.getAttribute("id");
+            }
+          });
+      
+          navLi.forEach((li) => {
+            li.classList.remove("active-link");
+            if (li.getAttribute("href").includes(current)) {
+              li.classList.add("active-link");
+            }
+          });
+
+          if (current === "") {
+            navLi.forEach((li) => li.classList.remove("active-link"));
+          }
+        };
+
+        window.addEventListener('scroll', changeActiveLink);
+        changeActiveLink();
+      });
+    </script>
+    
+    <script src="https://kit.fontawesome.com/6fbcb97dd8.js" crossorigin="anonymous"></script>
+</body>
+</html>
