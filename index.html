@@ -7,7 +7,7 @@
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <style>
-      :root {
+        :root {
         scroll-behavior: smooth;
       }
       
@@ -16,14 +16,39 @@
         min-height: 100vh;
         overflow-x: hidden;
       }
-
       .sticky-sidebar {
-        position: sticky;
-        top: 0;
-        height: 100vh;
-        overflow-y: auto;
-      }
+      left: -250px; /* Off-screen by default */
+      width: 250px;
+      height: 100%; /* Full height for mobile */
+      background: rgba(255, 255, 255, 0.8);
+      -webkit-backdrop-filter: blur(10px);
+              backdrop-filter: blur(10px);
+      transition: transform 0.3s ease;
+      z-index: 100; /* Make sure it's above other elements */
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+    }
 
+.sticky-sidebar.open {
+    left: 0;
+}
+
+@media (min-width: 640px) {
+    .sticky-sidebar {
+        position: sticky;
+        top: 1rem;
+        left: auto;
+        width: auto;
+        height: auto;
+        max-height: calc(100vh - 2rem);
+    }
+}
+      
       .active-link {
         background-color: #344944;
         color: white;
@@ -35,33 +60,47 @@
         position: absolute;
         z-index: -1;
       }
+
+      @media (min-width: 768px) {
+        .sticky-sidebar {
+          position: static;
+          transform: translateX(0);
+          height: auto;
+          width: 25%;
+        }
+      }
+
     </style>
-  <script type="module" crossorigin src="/assets/index-AlJbz_Jp.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-dy29kGct.css">
+  <script type="module" crossorigin src="/assets/index-D3L1KZOA.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CUPYfd9Q.css">
 </head>
 <body class="bg-gray-100" id="app">
-    <div class="container mx-auto p-4 flex flex-col md:flex-row">
+    <div class="container mx-auto p-4 flex flex-col md:flex-row ">
         <!-- Left Column -->
-        <div class="md:w-1/4 bg-gradient-to-br from-primary-50/10 to-primary-100/80 p-4 rounded-lg shadow-md sticky-sidebar flex flex-col items-stretch text-primary-900 z-10">
-          <img src="profile-image.jpg" alt="Profile Picture" class="rounded-full w-32 h-32 mx-auto mb-4">
-          <h1 class="text-xl font-semibold text-center mb-2">Vahid Rahimzadeh</h1>
-          <div class="flex justify-center space-x-2 mb-4">
+       <div class="w-full self-stretch py-4 px-2 bg-white fixed z-40 border border-primary-50 shadow-lg  top-0 left-0 sm:hidden">
+        <div class="hamburger ml-4 z-50" id="menu-toggle">
+          <i class="fas fa-bars fa-2x"></i>
+         </div>
+       </div>
+       <div class="sticky-sidebar md:sticky md:top-0 bg-gradient-to-br from-primary-50/10 to-primary-100/80 p-4 rounded-lg shadow-md flex flex-col items-stretch text-primary-900 z-40">
+        <img src="profile-image.jpg" alt="Profile Picture" class="rounded-full w-32 h-32 mx-auto mb-4">
+        <h1 class="text-xl font-semibold text-center mb-2">Vahid Rahimzadeh</h1>
+        <div class="flex justify-center space-x-2 mb-4">
             <a href="https://telegram.me/vavredev" class="text-primary-500"><i class="fab text-2xl fa-telegram"></i></a>
             <a href="https://www.linkedin.com/in/vavre/" class="text-primary-700"><i class="fab text-2xl fa-linkedin"></i></a>
-            <!-- <a href="#" class="text-pink-600"><i class="fab text-2xl fa-instagram"></i></a> -->
             <a href="https://x.com/vavredev" class="text-primary-400"><i class="fab text-2xl fa-twitter"></i></a>
-          </div>
-          <p class="text-center mb-2">
+        </div>
+        <p class="text-center mb-2">
             <a href="tel:+989217412088" class="text-primary-700 hover:text-primary-900 transition duration-300">
               +989217412088
             </a>
-          </p>
-          <p class="text-center mb-4">
+        </p>
+        <p class="text-center mb-4">
             <a href="mailto:vahyd@live.com" class="text-primary-700 hover:text-primary-900 transition duration-300">
               vahyd@live.com
             </a>
-          </p>
-          <nav>
+        </p>
+        <nav>
             <ul class="space-y-2 relative text-center">
               <li><a href="#about" class="block hover:bg-primary-100 p-2 rounded" id="link-about">About Me</a></li>
               <li><a href="#education" class="block hover:bg-primary-100 p-2 rounded" id="link-education">Education</a></li>
@@ -69,9 +108,11 @@
               <li><a href="#experiences" class="block hover:bg-primary-100 p-2 rounded" id="link-experiences">Experiences</a></li>
               <li><a href="#honors" class="block hover:bg-primary-100 p-2 rounded" id="link-honors">Honor and Awards</a></li>
               <li><a href="#projects" class="block hover:bg-primary-100 p-2 rounded" id="link-projects">Projects</a></li>
+              <li><a href="#skills" class="block hover:bg-primary-100 p-2 rounded" id="link-skills">Skills</a></li>
+              <li><a href="#likes" class="block hover:bg-primary-100 p-2 rounded" id="link-likes">Likes</a></li>
             </ul>
-          </nav>
-        </div>
+        </nav>
+    </div>
         
         <!-- Right Column -->
         <div class="md:w-3/4 md:ml-4 mt-4 md:mt-0">
@@ -213,43 +254,122 @@
                   </ul>
               </div>
           </section>
-        </div>
+          <section id="skills" class="relative bg-gradient-to-br from-white to-primary-50/80 p-6 rounded-lg shadow-md mb-4 backdrop-blur-md bg-opacity-60 z-10 border border-primary-100">
+            <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] bottom-4 left-0 transform -translate-x-1/2"></div>
+            <div class="relative z-10">
+                <h2 class="text-lg font-bold mb-6 bg-primary-50 border border-primary-200 inline-block px-4 py-2 rounded">Skills</h2>
+                <div class="flex flex-wrap gap-2 [&>span]:border [&>span]:border-primary-200 [&>span]:px-2 [&>span]:py-1 [&>span]:rounded-md ">
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Large Language Models</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Vision Language Models</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Research</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">LangChain</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">LangGraph</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Milvus</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">ElasticSearch</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">NATs</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">PostgreSQL</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Redis</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">MongoDB</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">vLLM</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">TGI</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Unsloth</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">HF Trainer</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">PyTorch</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">BERT</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Embedders</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Lexical Retrieval</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Semantic Retrieval</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">ColBERT</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">BM25</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Neo4J</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Code Reviewing</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Repository Maintenance</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Teamwork</span>
+                    <span class="hover:bg-primary-100 transition-all cursor-pointer">Tight Deadlines</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="likes" class="relative bg-gradient-to-br from-white to-primary-50/80 p-6 rounded-lg shadow-md mb-4 backdrop-blur-md bg-opacity-60 z-10 border border-primary-100">
+          <div class="circle-deep-green w-60 h-60 rounded-full absolute z-[-1] bottom-4 right-0 transform translate-x-1/2"></div>
+          <div class="relative z-10">
+              <h2 class="text-lg font-bold mb-6 bg-primary-50 border border-primary-200 inline-block px-4 py-2 rounded">Likes</h2>
+              <div class="flex flex-wrap gap-2 [&>span]:border [&>span]:border-primary-200 [&>span]:px-2 [&>span]:py-1 [&>span]:rounded-md">
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Fyodor Dostoevsky</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Albert Camus</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Leo Tolstoy</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Charles Bukowski</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Franz Kafka</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Gabriel Garcia Marquez</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Jordan Peterson</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Andrew Huberman</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Lex Fridman</span>
+                  <span class="hover:bg-primary-100 transition-all cursor-pointer">Sadegh Hedayat</span>
+              </div>
+          </div>
+      </section>
+              </div>
     </div>
     
     <!-- JavaScript to handle the active link on scroll -->
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const sections = document.querySelectorAll("section");
-        const navLi = document.querySelectorAll("nav ul li a");
-        
-        const changeActiveLink = () => {
-          let current = "";
-      
-          sections.forEach((section) => {
-            const sectionTop = section.offsetTop - 20;
-            const sectionHeight = section.clientHeight;
-            const sectionBottom = sectionTop + sectionHeight;
-      
-            if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
-              current = section.getAttribute("id");
-            }
-          });
-      
-          navLi.forEach((li) => {
-            li.classList.remove("active-link");
-            if (li.getAttribute("href").includes(current)) {
-              li.classList.add("active-link");
-            }
-          });
+ document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("section");
+  const navLi = document.querySelectorAll("nav ul li a");
+  const sidebar = document.querySelector(".sticky-sidebar");
+  const menuToggle = document.getElementById("menu-toggle"); // Hamburger icon or button
 
-          if (current === "") {
-            navLi.forEach((li) => li.classList.remove("active-link"));
-          }
-        };
+  // Function to handle active link based on scroll
+  const changeActiveLink = () => {
+    let current = "";
 
-        window.addEventListener('scroll', changeActiveLink);
-        changeActiveLink();
-      });
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 20;
+      const sectionHeight = section.clientHeight;
+      const sectionBottom = sectionTop + sectionHeight;
+
+      if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLi.forEach((li) => {
+      li.classList.remove("active-link");
+      if (li.getAttribute("href").includes(current)) {
+        li.classList.add("active-link");
+      }
+    });
+
+    if (current === "") {
+      navLi.forEach((li) => li.classList.remove("active-link"));
+    }
+  };
+
+  // Toggle the sidebar visibility
+  menuToggle.addEventListener("click", (event) => {
+    sidebar.classList.toggle("open");
+    // Prevent the click from bubbling up to the document
+    event.stopPropagation();
+  });
+
+  // Close sidebar when clicking outside
+  document.addEventListener("click", (event) => {
+    if (sidebar.classList.contains("open")) {
+      const isClickInsideSidebar = sidebar.contains(event.target);
+      const isClickInsideMenuToggle = menuToggle.contains(event.target);
+
+      if (!isClickInsideSidebar && !isClickInsideMenuToggle) {
+        sidebar.classList.remove("open");
+      }
+    }
+  });
+
+  // Add scroll event listener to manage active link based on scroll position
+  window.addEventListener("scroll", changeActiveLink);
+  changeActiveLink(); // Initialize on pageload
+});
+
+
     </script>
     
     <script src="https://kit.fontawesome.com/6fbcb97dd8.js" crossorigin="anonymous"></script>
