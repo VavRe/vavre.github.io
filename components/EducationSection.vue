@@ -7,35 +7,33 @@
       
       <div class="mb-8">
         <h3 class="flex items-center justify-between text-lg font-semibold">
-          <span class="text-primary-800">M.Sc in Information Technology Engineering</span>
-          <span class="px-2 py-1 text-sm font-light border rounded text-primary-500 border-primary-200">2022-Present</span>
+          <span class="text-primary-800">Ph.D. in Artificial Intelligence</span>
+          <span class="px-2 py-1 text-sm font-light border rounded text-primary-500 border-primary-200">Oct 2025 - Present</span>
+        </h3>
+        <p class="font-medium text-gray-700">TPM @ Delft University of Technology</p>
+        <p class="mt-2 text-gray-700">Working on the safe and responsible integration of AI in digital environments</p>
+        <p class="mt-2 font-medium"><span class="font-bold">Supervisors:</span> <a class="professor" href="https://zsavvas.github.io/">Savvas Zannettou</a>, <a class="professor" href="https://zhauniarovich.com/">Yury Zhauniarovich</a></p>
+      </div>
+
+      <div class="pt-6 mb-8 border-t border-gray-300">
+        <h3 class="flex items-center justify-between text-lg font-semibold">
+          <span class="text-primary-800">M.Sc. in Information Technology Engineering</span>
+          <span class="px-2 py-1 text-sm font-light border rounded text-primary-500 border-primary-200">Sep 2022 - Aug 2025</span>
         </h3>
         <p class="font-medium text-gray-700">University of Tehran</p>
-        <p class="text-gray-600">Effective GPA: <span class="font-semibold">18.92/20</span></p>
-        <p class="mt-2 font-medium"><span class="font-bold">Thesis:</span> User Behavior Modeling in Social Networks Using Large Language Models</p>
-        <p class="mt-2 font-medium"><span class="font-bold">Supervisors:</span> <a class="professor" href="https://scholar.google.com/citations?hl=en&user=E-QpN74AAAAJ&view_op=list_works&sortby=pubdate">Dr. Azadeh Shakery</a>, <a class="professor" href="https://scholar.google.com/citations?hl=en&user=MKwwcvIAAAAJ&view_op=list_works&sortby=pubdate">Dr. Masoud Asadpour</a></p>
-        <p class="mt-2 font-medium"><span class="font-bold">Activities:</span></p>
-        <ul class="ml-4 text-gray-700 list-disc list-inside">
-          <li>Head Teaching Assistant in Advanced Data Mining</li>
-          <li>Teaching Assistant in NLP, Intelligent Information Retrieval and Large Language Models</li>
-        </ul>
+        <p class="text-gray-600">GPA: <span class="font-semibold">4.00/4.00 (18.5/20)</span></p>
+        <p class="mt-2 font-medium"><span class="font-bold">Thesis:</span> User Behavior Modeling in Social Networks using LLMs</p>
+        <p class="mt-2 font-medium"><span class="font-bold">Supervisors:</span> <a class="professor" href="https://scholar.google.com/citations?user=E-QpN74AAAAJ&hl=en">Azadeh Shakery</a>, <a class="professor" href="https://scholar.google.com/citations?user=MKwwcvIAAAAJ&hl=en/">Masoud Asadpour</a></p>
       </div>
       
       <div class="pt-6 border-t border-gray-300">
         <h3 class="flex items-center justify-between text-lg font-semibold">
-          <span class="text-primary-800">B.Sc in Mechatronics, Automation and Robotics Engineering</span>
-          <span class="px-2 py-1 text-sm font-light border rounded text-primary-500 border-primary-200">2016-2021</span>
+          <span class="text-primary-800">B.Sc. in Mechatronics, Automation & Robotics</span>
+          <span class="px-2 py-1 text-sm font-light border rounded text-primary-500 border-primary-200">Sep 2016 - Sep 2021</span>
         </h3>
         <p class="font-medium text-gray-700">Isfahan University of Technology</p>
-        <p class="text-gray-600">Effective GPA: <span class="font-semibold">15.59/20</span></p>
-        <p class="mt-2 font-medium"><span class="font-bold">Final Project:</span></p>
-        <p class="ml-4 text-gray-700">Developing real-time Android application for dynamic balancing of rotating machineries using 4 runs method and USB MEMS accelerometer. Supported and used by a company in vibration industry.</p>
-        <p class="ml-4 text-gray-600">Grade: <span class="font-semibold">19.5/20</span></p>
-        <p class="mt-2 font-medium"><span class="font-bold">Activities:</span></p>
-        <ul class="ml-4 text-gray-700 list-disc list-inside">
-          <li>Senior Member on IoT & Robotics R&D Cell</li>
-          <li>Winner of the Outstanding R&D Cell in IUT, 2019</li>
-        </ul>
+        <p class="text-gray-600">GPA: <span class="font-semibold">3.11/4.00 (15.59/20)</span></p>
+        <p class="mt-2 font-medium"><span class="font-bold">Final Project:</span> Android App for Planar Dynamic Balance of Rotors using Real-time Accelerometer Data</p>
       </div>
     </div>
   </section>
