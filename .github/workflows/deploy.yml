@@ -35,13 +35,13 @@ jobs:
           NUXT_APP_BASE_URL: /
 
       - name: Create .nojekyll file
-        run: touch .output/public/.nojekyll
+        run: touch docs/.nojekyll
 
       - name: Deploy to main branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .output/public
+          publish_dir: docs
           publish_branch: main
           cname: vavre.github.io
           commit_message: 'Deploy from dev branch'
