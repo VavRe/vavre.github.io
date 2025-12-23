@@ -1,0 +1,12 @@
+.circle-deep-green {
+    background: radial-gradient(50% 50% at 50% 50%, rgb(213 227 223) 0%, rgb(130 143 139 / 40%) 100%);
+  }
+  
+section {
+    isolation: isolate;
+  }
+  
+
+section {
+  font-size: 15px;
+}

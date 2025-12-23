@@ -1,0 +1,35 @@
+---
+title: "Welcome to My Blog"
+description: "An introduction to my new blog where I'll share insights on AI, research, and technology"
+date: 2025-12-23
+tags: ["welcome", "introduction"]
+readingTime: "3 min read"
+---
+
+# Welcome to My Blog
+
+I'm excited to launch this blog as a space to share my thoughts, experiences, and insights on artificial intelligence, computational social science, and the intersection of technology with society.
+
+## What to Expect
+
+In this blog, you'll find:
+
+- **Research Updates**: Insights from my work on safe and responsible AI integration
+- **Technical Deep Dives**: Explorations of LLMs, NLP, and information retrieval
+- **Industry Reflections**: Lessons learned from building AI products at scale
+- **Academic Life**: Experiences and advice for graduate students and researchers
+
+## Why This Blog?
+
+As someone who believes in building a "Distributed Scientific Persona," I see this blog as an opportunity to:
+
+1. Share knowledge across disciplines
+2. Connect with like-minded researchers and practitioners
+3. Document my learning journey
+4. Contribute to the broader AI and research community
+
+## Stay Connected
+
+I'll be posting regularly about topics that fascinate me - from the latest developments in large language models to philosophical questions about AI's role in society. Feel free to reach out if any of these topics resonate with you!
+
+Looking forward to this journey of sharing and learning together.

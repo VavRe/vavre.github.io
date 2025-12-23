@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.professor,
+.insist {
+  color: #3e7165;
+  text-decoration: none;
+  background-color: rgba(13, 78, 58, 0.1);
+  border-bottom: 1px solid #344944;
+  transition: all 0.3s ease;
+}
+
+.sticky-sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  height: 100vh;
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+  background: linear-gradient(to bottom right, rgba(245, 248, 246, 1), rgba(222, 233, 228, 1));
+}
+
+.sticky-sidebar.open {
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .sticky-sidebar {
+    position: sticky;
+    top: 1rem;
+    left: auto;
+    width: auto;
+    height: auto;
+    max-height: calc(100vh - 2rem);
+    background: linear-gradient(to bottom right, rgba(245, 248, 246, 0.1), rgba(222, 233, 228, 0.8));
+  }
+  
+  .container {
+    max-width: min(80%, 1100px) !important;
+  }
+}
+
+.active-link {
+  background-color: #344944;
+  color: white;
+}
+
+.circle-deep-green {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(55, 78, 71, 0.25) 0%,
+    rgba(55, 78, 71, 0.05) 100%
+  );
+  filter: blur(59px);
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Ensure sections create proper stacking context */
+section[id],
+header[id] {
+  isolation: isolate;
+  position: relative;
+}
+
