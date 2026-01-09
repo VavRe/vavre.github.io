@@ -4,16 +4,18 @@
     <div class="relative z-10">
       <h2 class="inline-block px-4 py-2 mb-6 text-base font-bold border rounded bg-primary-50 border-primary-200">Publications</h2>
       
+
+      <div class="mb-4 pt-4 border-t border-gray-300">
+        <h3 class="text-base font-bold"><span class="text-primary-800">Synthia: Scalable Grounded Persona Generation from Social Media Data</span></h3>
+        <p class="text-gray-600">Submitted to ACL 2026</p>
+        <p class="italic text-gray-700"><strong>V. Rahimzadeh*</strong>, E. Moosavi*, MT. Pilehvar, Y. Yaghoobzadeh <sup>*</sup>equal contribution</p>
+      </div>
+
+
       <div class="mb-4">
         <h3 class="text-base font-bold"><span class="text-primary-800">PolitiSky24: U.S. Politics Bluesky Dataset with User Stance Labels</span></h3>
         <p class="text-gray-600">Accepted at EMNLP 2025, Findings</p>
         <p class="italic text-gray-700">P. Rostami, <strong>V. Rahimzadeh</strong>, A. Adibi, A. Shakery</p>
-      </div>
-
-      <div class="mb-4 pt-4 border-t border-gray-300">
-        <h3 class="text-base font-bold"><span class="text-primary-800">Synthia: Synthetic Yet Naturally Tailored Human-Inspired PersonAs</span></h3>
-        <p class="text-gray-600">Submitted to AAAI 2025</p>
-        <p class="italic text-gray-700"><strong>V. Rahimzadeh*</strong>, E. Moosavi*, MT. Pilehvar, Y. Yaghoobzadeh <sup>*</sup>equal contribution</p>
       </div>
       
       <div class="mb-4 pt-4 border-t border-gray-300">
