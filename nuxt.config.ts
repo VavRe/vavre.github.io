@@ -23,7 +23,17 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://kit.fontawesome.com/6fbcb97dd8.css', crossorigin: 'anonymous' }
       ],
       script: [
-        { src: 'https://kit.fontawesome.com/6fbcb97dd8.js', crossorigin: 'anonymous' }
+        { src: 'https://kit.fontawesome.com/6fbcb97dd8.js', crossorigin: 'anonymous' },
+        { src: 'https://www.googletagmanager.com/gtag/js?id=G-KDFBE13E98', async: true },
+        {
+          children: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KDFBE13E98');
+          `,
+          type: 'text/javascript'
+        }
       ]
     }
   },
