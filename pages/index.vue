@@ -49,6 +49,18 @@
             <p class="mt-4 leading-relaxed text-gray-800">
               My journey is driven by a joy for exploring diverse fields and a passion for building new things. It's a path that has given me the privilege of leading research and industry teams, launching successful products, and teaching/managing large university courses. These varied experiences are the foundation of my interdisciplinary work and my aspiration to build a <span class="font-semibold insist">"Distributed Scientific Persona"</span> —firmly anchored in computer science but deeply enriched by the social sciences and humanities. I'm always excited to connect with others who share a passion for learning and collaboration, so please don't hesitate to get in touch if you see anything interesting here :D
             </p>
+            <div class="mt-6 flex flex-wrap items-center gap-3">
+              <NuxtLink
+                to="/tpm-bar"
+                class="inline-flex items-center gap-2 rounded-full border border-primary-200 bg-white/90 px-4 py-2 text-sm font-semibold text-primary-800 shadow-sm transition hover:-translate-y-0.5 hover:border-primary-300 hover:bg-primary-50"
+              >
+                <i class="fas fa-beer-mug-empty"></i>
+                TPM Bar Tab
+              </NuxtLink>
+              <span class="text-sm text-gray-600">
+                A small, phone-friendly order tracker for the table.
+              </span>
+            </div>
           </div>
         </div>
       </header>
