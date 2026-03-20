@@ -45,13 +45,6 @@
               >
                 Reset
               </button>
-              <button
-                type="button"
-                class="rounded-full border border-amber-300 bg-amber-50 px-4 py-2 text-sm font-medium text-amber-900 transition hover:border-amber-400 hover:bg-amber-100"
-                @click="clearSessionItems"
-              >
-                Clear Extras
-              </button>
             </div>
           </div>
 
@@ -69,7 +62,7 @@
               on menu
             </span>
             <span class="compact-note">
-              {{ orderedItems.length ? displaySummary : 'Tap items and the bartender summary builds itself.' }}
+              {{ orderedItems.length ? displaySummary : 'No items yet.' }}
             </span>
           </div>
         </div>
@@ -80,10 +73,7 @@
           <div class="flex flex-wrap items-center justify-between gap-3">
             <div>
               <p class="text-xs font-semibold uppercase tracking-[0.3em] text-primary-700">Menu Board</p>
-              <h2 class="headline mt-2 text-3xl font-semibold text-slate-900">Tap To Build The Round</h2>
-              <p class="mt-2 text-sm leading-6 text-slate-600">
-                The ordering cards come first now, so the table can start tapping right away.
-              </p>
+              <h2 class="headline mt-2 text-3xl font-semibold text-slate-900">Menu</h2>
             </div>
             <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm font-medium text-slate-600">
               {{ allItems.length }} options loaded
@@ -178,10 +168,7 @@
                   +
                 </div>
                 <div>
-                  <p class="font-semibold text-slate-900">Custom Item</p>
-                  <p class="mt-1 text-sm leading-5 text-slate-600">
-                    Add a one-off extra without leaving the menu.
-                  </p>
+                  <p class="font-semibold text-slate-900">Extra Item</p>
                 </div>
               </div>
 
@@ -240,7 +227,7 @@
 
             <div class="mt-5 rounded-3xl border border-white/10 bg-white/5 p-4">
               <p v-if="!orderedItems.length" class="text-sm leading-6 text-primary-100/90">
-                Nothing on the tab yet. Add items from the menu and this slip stays ready for the bartender.
+                Nothing ordered yet.
               </p>
 
               <ul v-else class="space-y-3">
@@ -271,11 +258,6 @@
                 {{ displaySummary }}
               </p>
             </div>
-
-            <p class="mt-4 text-sm leading-6 text-primary-100/80">
-              Permanent items still live in
-              <code class="rounded bg-white/10 px-2 py-1 text-primary-50">data/tpm-bar-items.ts</code>.
-            </p>
           </section>
         </aside>
       </section>
@@ -454,18 +436,6 @@ const removeSessionItem = itemId => {
   sessionItems.value = sessionItems.value.filter(item => item.id !== itemId)
   delete quantities.value[itemId]
   delete notes.value[itemId]
-}
-
-const clearSessionItems = () => {
-  const permanentIds = new Set(permanentBarItems.map(item => item.id))
-
-  sessionItems.value = []
-  quantities.value = Object.fromEntries(
-    Object.entries(quantities.value).filter(([itemId]) => permanentIds.has(itemId))
-  )
-  notes.value = Object.fromEntries(
-    Object.entries(notes.value).filter(([itemId]) => permanentIds.has(itemId))
-  )
 }
 
 const resetQuantities = () => {
