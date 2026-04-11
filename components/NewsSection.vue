@@ -57,6 +57,7 @@ const currentPage = ref(1)
 const itemsPerPage = 8
 
 const newsItems = [
+  { date: 'Apr 2026', content: 'Our paper <b>Synthia: Scalable Grounded Persona Generation from Social Media Data</b> accepted to <b>ACL 2026</b> Main Conference' },
   { date: 'Nov 2025', content: 'Achieved IELTS Academic score of 8.5/9.0' },
   { date: 'Oct 2025', content: 'Started my PhD at TU Delft' },
   { date: 'Sep 2025', content: 'New resource paper, <a class="insist" href="https://www.arxiv.org/abs/2506.07606">PolitiSky24</a> accepted to <b>EMNLP 2025, Findings</b>' },
