@@ -4,7 +4,8 @@
     <div class="relative z-10">
       <h2 class="inline-block px-4 py-2 mb-6 text-base font-bold border rounded bg-primary-50 border-primary-200">Services</h2>
       
-      <ul class="space-y-3 list-disc list-inside">
+      <ul class="grid grid-cols-2 gap-x-6 gap-y-3 list-disc list-inside">
+        <li><span class="font-semibold">ECIR 2026:</span> Volunteer</li>
         <li><span class="font-semibold">ACL 2025:</span> Reviewer</li>
         <li><span class="font-semibold">ECIR 2025:</span> PC Member</li>
         <li><span class="font-semibold">AAAI 2025:</span> Reviewer</li>
