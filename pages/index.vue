@@ -5,7 +5,7 @@
       <div class="z-50 ml-4 hamburger cursor-pointer" @click="toggleSidebar">
         <i class="fas fa-bars fa-2x"></i>
       </div>
-      <a href="/CV_Vahid_Rahimzadeh_Dec_2025.pdf" class="inline-block px-3 py-1.5 text-sm text-white transition duration-300 rounded bg-primary-600 hover:bg-primary-700 mr-4">
+      <a href="/CV_Vahid_Rahimzadeh_Jun_2026.pdf" class="inline-block px-3 py-1.5 text-sm text-white transition duration-300 rounded bg-primary-600 hover:bg-primary-700 mr-4">
         Download CV
       </a>
     </div>
@@ -36,7 +36,7 @@
                   Last Update: Dec 2025
                 </span>
               </div>
-              <a href="/CV_Vahid_Rahimzadeh_Dec_2025.pdf" class="inline-block px-4 py-2 text-white transition duration-300 rounded bg-primary-600 hover:bg-primary-700">
+              <a href="/CV_Vahid_Rahimzadeh_Jun_2026.pdf" class="inline-block px-4 py-2 text-white transition duration-300 rounded bg-primary-600 hover:bg-primary-700">
                 Download CV
               </a>
             </div>

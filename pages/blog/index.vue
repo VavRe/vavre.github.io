@@ -11,7 +11,7 @@
             <i class="fas fa-blog mr-2"></i>Blog
           </NuxtLink>
         </div>
-        <a href="/CV_Vahid_Rahimzadeh_Dec_2025.pdf" download class="px-4 py-2 text-sm bg-primary-600 text-white rounded hover:bg-primary-700 transition-colors">
+        <a href="/CV_Vahid_Rahimzadeh_Jun_2026.pdf" download class="px-4 py-2 text-sm bg-primary-600 text-white rounded hover:bg-primary-700 transition-colors">
           <i class="fas fa-download mr-2"></i>Download CV
         </a>
       </div>

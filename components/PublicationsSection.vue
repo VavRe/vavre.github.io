@@ -11,6 +11,11 @@
         <p class="italic text-gray-700"><strong>V. Rahimzadeh*</strong>, E. Moosavi*, MT. Pilehvar, Y. Yaghoobzadeh <sup>*</sup>equal contribution</p>
       </div>
 
+      <div class="mb-4 pb-4 border-b border-gray-300">
+        <h3 class="text-base font-bold"><span class="text-primary-800">Expectation, Backlash, Recovery, and Excitement: How Model Releases Shape Reddit Perceptions of Conversational AI Systems</span></h3>
+        <p class="text-gray-600">Submitted to EMNLP 2026</p>
+        <p class="italic text-gray-700"><strong>V. Rahimzadeh</strong>, Y. Zhauniarovich, S. Zannettou</p>
+      </div>
 
       <div class="mb-4">
         <h3 class="text-base font-bold"><span class="text-primary-800">PolitiSky24: U.S. Politics Bluesky Dataset with User Stance Labels</span></h3>
