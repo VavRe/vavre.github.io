@@ -1825,18 +1825,6 @@ function renderMethods() {
     <div class="profile-stat"><span>Privacy</span><strong>Aggregate only</strong></div>
     <p class="profile-note">${esc(manifest.privacy_note || (Array.isArray(manifest.privacy_policy) ? manifest.privacy_policy.join(" ") : manifest.privacy_policy) || "Raw text, post IDs, and local paths are not included in the public data bundle.")}</p>
   `;
-  $("source-table").innerHTML = html`
-    <div class="table-wrap source-table">
-      <table>
-        <thead><tr><th>Source</th><th>SHA-256</th><th>Modified UTC</th></tr></thead>
-        <tbody>
-          ${manifest.sources
-            .map((row) => html`<tr><td>${esc(row.label)}</td><td><code>${esc(row.sha256 || "missing")}</code></td><td>${esc(row.modified_utc || "")}</td></tr>`)
-            .join("")}
-        </tbody>
-      </table>
-    </div>
-  `;
 }
 
 let dashboardBooted = false;
