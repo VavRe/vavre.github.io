@@ -1068,7 +1068,7 @@ body {
 
 .annotation-row {
   display: grid;
-  grid-template-columns: minmax(170px, 260px) 1fr 120px 120px;
+  grid-template-columns: minmax(190px, 300px) 1fr;
   gap: 12px;
   padding: 9px 0;
   border-bottom: 1px solid var(--line);

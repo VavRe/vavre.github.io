@@ -1718,8 +1718,6 @@ function renderConceptSentimentTable() {
           <div class="annotation-row">
             <div><strong>${esc(row.concept)}</strong><p>${esc(row.meta_concepts)} / ${esc(row.mid_level_concept)}</p></div>
             <div><p>${esc(row.prompt)}</p></div>
-            <div><span class="data-chip">${esc(normalizeSentiment(row.majority))}</span><p>${esc(row.agreement)}</p></div>
-            <div><p>Yury: ${esc(row.yury)}<br>Savvas: ${esc(row.savvas)}<br>Vahid: ${esc(row.vahid)}</p></div>
           </div>`)
         .join("")}
     </div>
