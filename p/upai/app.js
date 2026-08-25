@@ -1642,7 +1642,7 @@ function renderConceptBank() {
     .filter((row) => {
       if (state.conceptBankSentiment !== "all" && normalizeSentiment(row.annotation?.majority || row.sentiment_majority) !== state.conceptBankSentiment) return false;
       if (!q) return true;
-      const haystack = [row.canonical_name, row.meta_concepts, row.mid_level_concept, row.definition_prompt, ...(row.sample_aliases || [])].join(" ").toLowerCase();
+      const haystack = [row.canonical_name, row.meta_concepts, row.mid_level_concept, row.definition_prompt].join(" ").toLowerCase();
       return haystack.includes(q);
     });
   rows = sortConceptBankRows(rows).slice(0, 160);
@@ -1657,7 +1657,6 @@ function renderConceptBank() {
             </div>
             <div>
               <p>${esc(row.definition_prompt || "")}</p>
-              <div class="pill-row">${(row.sample_aliases || []).slice(0, 5).map((alias) => `<span class="pill">${esc(alias)}</span>`).join("")}</div>
             </div>
             <div><strong>${fmtPct(row.prevalence?.prevalence_pct || 0, 3)}</strong><p>${fmtInt(row.prevalence?.n_concept_posts || 0)} / ${fmtInt(row.prevalence?.n_total_posts || 0)}</p></div>
             <div><span class="data-chip">${esc(normalizeSentiment(row.annotation?.majority || row.sentiment_majority))}</span><p>${esc(row.annotation?.agreement || row.sentiment_agreement || "")}</p></div>

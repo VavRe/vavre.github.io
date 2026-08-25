@@ -659,26 +659,6 @@ th {
   font-size: 12px;
 }
 
-.pill-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 7px;
-}
-
-.pill {
-  display: inline-flex;
-  align-items: center;
-  min-height: 22px;
-  padding: 3px 7px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--muted);
-  background: var(--soft);
-  font-size: 11px;
-  font-weight: 720;
-}
-
 .meta-cell-grid {
   display: grid;
   grid-template-columns: 1fr;
