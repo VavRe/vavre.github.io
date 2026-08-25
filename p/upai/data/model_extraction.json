@@ -1,0 +1,343 @@
+{
+  "dataset_provider_posts": [
+    {
+      "provider": "OpenAI",
+      "posts": 455045,
+      "share_pct": 68.1
+    },
+    {
+      "provider": "Meta",
+      "posts": 68282,
+      "share_pct": 10.2
+    },
+    {
+      "provider": "Google",
+      "posts": 60475,
+      "share_pct": 9.1
+    },
+    {
+      "provider": "Anthropic",
+      "posts": 43271,
+      "share_pct": 6.5
+    },
+    {
+      "provider": "xAI",
+      "posts": 27815,
+      "share_pct": 4.2
+    },
+    {
+      "provider": "DeepSeek",
+      "posts": 9982,
+      "share_pct": 1.5
+    },
+    {
+      "provider": "Mistral",
+      "posts": 1994,
+      "share_pct": 0.3
+    },
+    {
+      "provider": "Alibaba",
+      "posts": 976,
+      "share_pct": 0.1
+    },
+    {
+      "provider": "Moonshot AI",
+      "posts": 223,
+      "share_pct": 0.0
+    }
+  ],
+  "mention_provider_counts": [
+    {
+      "provider": "OpenAI",
+      "mentions": 316410,
+      "mention_share_pct": 62.6,
+      "posts": 252719,
+      "post_share_pct": 69.5
+    },
+    {
+      "provider": "Google",
+      "mentions": 61793,
+      "mention_share_pct": 12.2,
+      "posts": 51854,
+      "post_share_pct": 14.3
+    },
+    {
+      "provider": "Anthropic",
+      "mentions": 55652,
+      "mention_share_pct": 11.0,
+      "posts": 44020,
+      "post_share_pct": 12.1
+    },
+    {
+      "provider": "xAI",
+      "mentions": 20075,
+      "mention_share_pct": 4.0,
+      "posts": 18418,
+      "post_share_pct": 5.1
+    },
+    {
+      "provider": "Meta",
+      "mentions": 17380,
+      "mention_share_pct": 3.4,
+      "posts": 14418,
+      "post_share_pct": 4.0
+    },
+    {
+      "provider": "DeepSeek",
+      "mentions": 16493,
+      "mention_share_pct": 3.3,
+      "posts": 14605,
+      "post_share_pct": 4.0
+    },
+    {
+      "provider": "Alibaba",
+      "mentions": 9518,
+      "mention_share_pct": 1.9,
+      "posts": 7209,
+      "post_share_pct": 2.0
+    },
+    {
+      "provider": "Mistral",
+      "mentions": 6942,
+      "mention_share_pct": 1.4,
+      "posts": 5801,
+      "post_share_pct": 1.6
+    },
+    {
+      "provider": "Moonshot AI",
+      "mentions": 987,
+      "mention_share_pct": 0.2,
+      "posts": 884,
+      "post_share_pct": 0.2
+    }
+  ],
+  "co_mention_jaccard": [
+    {
+      "source": "OpenAI",
+      "target": "OpenAI",
+      "jaccard": 1.0
+    },
+    {
+      "source": "OpenAI",
+      "target": "Anthropic",
+      "jaccard": 0.04223
+    },
+    {
+      "source": "OpenAI",
+      "target": "Google",
+      "jaccard": 0.04669
+    },
+    {
+      "source": "OpenAI",
+      "target": "xAI",
+      "jaccard": 0.01412
+    },
+    {
+      "source": "OpenAI",
+      "target": "Meta",
+      "jaccard": 0.00938
+    },
+    {
+      "source": "OpenAI",
+      "target": "DeepSeek",
+      "jaccard": 0.01548
+    },
+    {
+      "source": "Anthropic",
+      "target": "OpenAI",
+      "jaccard": 0.04223
+    },
+    {
+      "source": "Anthropic",
+      "target": "Anthropic",
+      "jaccard": 1.0
+    },
+    {
+      "source": "Anthropic",
+      "target": "Google",
+      "jaccard": 0.06675
+    },
+    {
+      "source": "Anthropic",
+      "target": "xAI",
+      "jaccard": 0.02493
+    },
+    {
+      "source": "Anthropic",
+      "target": "Meta",
+      "jaccard": 0.01599
+    },
+    {
+      "source": "Anthropic",
+      "target": "DeepSeek",
+      "jaccard": 0.02466
+    },
+    {
+      "source": "Google",
+      "target": "OpenAI",
+      "jaccard": 0.04669
+    },
+    {
+      "source": "Google",
+      "target": "Anthropic",
+      "jaccard": 0.06675
+    },
+    {
+      "source": "Google",
+      "target": "Google",
+      "jaccard": 1.0
+    },
+    {
+      "source": "Google",
+      "target": "xAI",
+      "jaccard": 0.02919
+    },
+    {
+      "source": "Google",
+      "target": "Meta",
+      "jaccard": 0.01035
+    },
+    {
+      "source": "Google",
+      "target": "DeepSeek",
+      "jaccard": 0.0216
+    },
+    {
+      "source": "xAI",
+      "target": "OpenAI",
+      "jaccard": 0.01412
+    },
+    {
+      "source": "xAI",
+      "target": "Anthropic",
+      "jaccard": 0.02493
+    },
+    {
+      "source": "xAI",
+      "target": "Google",
+      "jaccard": 0.02919
+    },
+    {
+      "source": "xAI",
+      "target": "xAI",
+      "jaccard": 1.0
+    },
+    {
+      "source": "xAI",
+      "target": "Meta",
+      "jaccard": 0.00542
+    },
+    {
+      "source": "xAI",
+      "target": "DeepSeek",
+      "jaccard": 0.02365
+    },
+    {
+      "source": "Meta",
+      "target": "OpenAI",
+      "jaccard": 0.00938
+    },
+    {
+      "source": "Meta",
+      "target": "Anthropic",
+      "jaccard": 0.01599
+    },
+    {
+      "source": "Meta",
+      "target": "Google",
+      "jaccard": 0.01035
+    },
+    {
+      "source": "Meta",
+      "target": "xAI",
+      "jaccard": 0.00542
+    },
+    {
+      "source": "Meta",
+      "target": "Meta",
+      "jaccard": 1.0
+    },
+    {
+      "source": "Meta",
+      "target": "DeepSeek",
+      "jaccard": 0.02486
+    },
+    {
+      "source": "DeepSeek",
+      "target": "OpenAI",
+      "jaccard": 0.01548
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Anthropic",
+      "jaccard": 0.02466
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Google",
+      "jaccard": 0.0216
+    },
+    {
+      "source": "DeepSeek",
+      "target": "xAI",
+      "jaccard": 0.02365
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Meta",
+      "jaccard": 0.02486
+    },
+    {
+      "source": "DeepSeek",
+      "target": "DeepSeek",
+      "jaccard": 1.0
+    }
+  ],
+  "validation_by_taxonomy_level": [
+    {
+      "level": "provider",
+      "accuracy": 1.0,
+      "weighted_precision": 1.0,
+      "weighted_recall": 1.0,
+      "weighted_f1": 1.0,
+      "support": 501
+    },
+    {
+      "level": "family",
+      "accuracy": 0.958,
+      "weighted_precision": 0.958,
+      "weighted_recall": 0.958,
+      "weighted_f1": 0.956,
+      "support": 501
+    },
+    {
+      "level": "generation",
+      "accuracy": 0.96,
+      "weighted_precision": 0.978,
+      "weighted_recall": 0.96,
+      "weighted_f1": 0.967,
+      "support": 501
+    },
+    {
+      "level": "tier",
+      "accuracy": 0.98,
+      "weighted_precision": 0.973,
+      "weighted_recall": 0.98,
+      "weighted_f1": 0.976,
+      "support": 501
+    }
+  ],
+  "post_level_validation": {
+    "sample_posts": 397,
+    "micro_precision": 0.907,
+    "micro_recall": 0.876,
+    "micro_f1": 0.891,
+    "exact_match_accuracy": 0.861
+  },
+  "single_source_summary": {
+    "event_rows": 498188,
+    "event_unique_posts": 352994,
+    "post_mapping_rows": 352994,
+    "post_mapping_unique_posts": 352994
+  }
+}

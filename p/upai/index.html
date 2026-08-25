@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Expectation, Backlash, Recovery, and Excitement</title>
+    <meta name="description" content="Interactive guided story and aggregate dashboard for a paper on how model releases shape Reddit perceptions of conversational AI systems." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="updated-banner" class="updated-banner"></div>
+    <script>
+      (function () {
+        // Bump SITE_UPDATED_UTC whenever this page (or its app.js/story.js/styles.css) changes.
+        var SITE_UPDATED_UTC = "2026-08-25T12:47:50Z";
+        var formatted = new Intl.DateTimeFormat("en-GB", {
+          timeZone: "Europe/Amsterdam",
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+        }).format(new Date(SITE_UPDATED_UTC));
+        document.getElementById("updated-banner").textContent = "Page last updated " + formatted + " (Amsterdam time)";
+      })();
+    </script>
+    <header class="paper-header">
+      <div class="masthead">
+        <p class="venue">Interactive Paper Companion</p>
+        <h1 id="paper-title">Expectation, Backlash, Recovery, and Excitement</h1>
+        <p id="paper-subtitle" class="subtitle">How model releases shape Reddit perceptions of conversational AI systems</p>
+        <p class="author-line">
+          <a class="author" href="https://vavre.github.io/">Vahid Rahimzadeh</a>,
+          <a class="author" href="https://zsavvas.github.io/">Savvas Zannettou</a>,
+          <a class="author" href="https://zhauniarovich.com/">Yury Zhauniarovich</a>
+        </p>
+        <p class="affiliation-line">
+          Delft University of Technology &middot;
+          <a class="affiliation" href="https://cysafelab.org">CySafeLab</a>
+        </p>
+        <p class="affiliation-line">Reddit discussions of conversational AI systems, October 2022 to December 2025</p>
+        <div class="resource-row" aria-label="Paper resources">
+          <a class="button primary" href="assets/paper.pdf">Paper PDF</a>
+          <a class="button" href="#story">Guided Story</a>
+          <a class="button" href="#lessons">Lessons</a>
+          <a class="button" href="#appendix">Technical Appendix</a>
+        </div>
+        <nav class="page-nav" aria-label="Page sections">
+          <a href="#story">Story</a>
+          <a href="#chapter-gpt-4o">GPT-4o</a>
+          <a href="#chapter-gpt-5">GPT-5</a>
+          <a href="#chapter-gpt-5-1">GPT-5.1</a>
+          <a href="#chapter-claude-4">Claude 4</a>
+          <a href="#chapter-ds-r1">DeepSeek R1</a>
+          <a href="#chapter-grok-3">Grok 3</a>
+          <a href="#lessons">Lessons</a>
+          <a href="#appendix">Appendix</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ═══════════════ GUIDED STORY ═══════════════ -->
+    <div id="story" class="story-shell">
+      <div class="story-intro">
+        <p class="scroll-hint">A guided tour of six releases</p>
+        <h2>Every model release is a user-facing event</h2>
+        <p>
+          Between October 2022 and December 2025, Reddit communities wrote
+          hundreds of thousands of posts about conversational AI systems. We
+          treat each major model release as an observation point and measure
+          how sentiment and discussion themes shift in the weeks before and
+          after. Six releases tell six very different stories.
+        </p>
+        <p id="story-intro-metrics" class="lead"></p>
+        <p class="scroll-hint">Scroll to begin</p>
+      </div>
+      <div id="story-chapters"><!-- chapters injected by story.js --></div>
+    </div>
+
+    <!-- ═══════════════ LESSONS ═══════════════ -->
+    <section id="lessons" class="lessons-band">
+      <h2>What providers can take away</h2>
+      <p>
+        Five recurring patterns across the six releases, phrased as practical
+        lessons for planning future model updates.
+      </p>
+      <div class="lessons-grid">
+        <article class="lesson-card">
+          <h3>Close the expectation gap</h3>
+          <p>
+            Announce only what users can access at launch, or say clearly when
+            and for whom advertised capabilities arrive. The distance between
+            demo and reality dominated GPT-4o's reception.
+          </p>
+          <span class="lesson-evidence">Expectation Gap +19.4 pp after GPT-4o</span>
+        </article>
+        <article class="lesson-card">
+          <h3>Preserve model continuity</h3>
+          <p>
+            Removing models that users built workflows — and relationships —
+            around triggers the sharpest backlash. Transition periods matter.
+          </p>
+          <span class="lesson-evidence">Feature Removal Frustration +6.8 pp after GPT-5</span>
+        </article>
+        <article class="lesson-card">
+          <h3>Ship capacity with capability</h3>
+          <p>
+            A technically admired model that people cannot reliably access
+            still produces a negative reception. Release planning is also
+            infrastructure planning.
+          </p>
+          <span class="lesson-evidence">Negative share +16.0 pp after DeepSeek R1</span>
+        </article>
+        <article class="lesson-card">
+          <h3>Release with a concrete use case</h3>
+          <p>
+            The most favorable shift in our data came from a model that
+            arrived bundled with a clear workflow: Claude 4 with coding and
+            agentic automation.
+          </p>
+          <span class="lesson-evidence">Positive +5.3 pp, negative −10.5 pp after Claude 4</span>
+        </article>
+        <article class="lesson-card">
+          <h3>Monitor perceptions continuously</h3>
+          <p>
+            Discussion themes move fast and backlash can be partially
+            reversed: GPT-5.1 de-escalated much of the GPT-5 revolt within
+            weeks.
+          </p>
+          <span class="lesson-evidence">Negative −4.3 pp after GPT-5.1</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- ═══════════════ TECHNICAL APPENDIX ═══════════════ -->
+    <div class="appendix-divider" id="appendix">
+      <h2>Technical appendix</h2>
+      <p>
+        The full interactive dashboard: model-mention structure, sentiment
+        timelines, subreddit composition, the canonical concept bank, and
+        release-delta explorers. All data is aggregate; no raw post text or
+        IDs are shipped.
+      </p>
+      <p id="appendix-status" class="appendix-loading">The appendix loads when you scroll here.</p>
+    </div>
+
+    <nav id="appendix-nav" class="appendix-nav" aria-label="Appendix sections" hidden>
+      <div class="appendix-nav-inner">
+        <a href="#summary" data-section="summary">Summary</a>
+        <a href="#model-extraction" data-section="model-extraction">Extraction</a>
+        <a href="#single-multi" data-section="single-multi">Multiplicity</a>
+        <a href="#sentiment" data-section="sentiment">Sentiment</a>
+        <a href="#subreddits" data-section="subreddits">Subreddits</a>
+        <a href="#concepts" data-section="concepts">Concepts</a>
+        <a href="#concept-sentiment" data-section="concept-sentiment">Valence</a>
+        <a href="#release-ranking" data-section="release-ranking">Ranking</a>
+        <a href="#release-concepts" data-section="release-concepts">Releases</a>
+        <a href="#methods" data-section="methods">Methods</a>
+      </div>
+    </nav>
+
+    <aside id="widget-toc" class="widget-toc" hidden>
+      <button type="button" class="widget-toc-toggle" aria-expanded="true" aria-label="Collapse section outline">&#9642;</button>
+      <p class="widget-toc-title"></p>
+      <ol class="widget-toc-list"></ol>
+    </aside>
+
+    <main class="page-shell">
+      <section id="summary" class="paper-section">
+        <div class="section-head centered">
+          <p class="eyebrow">Summary Workbench</p>
+          <h2>Release Events As User-Facing Interventions</h2>
+          <p id="paper-abstract" class="lead">Loading aggregate paper data...</p>
+        </div>
+        <div id="metric-cards" class="metric-grid" aria-live="polite"></div>
+        <div id="story-cards" class="story-grid story-buttons"></div>
+        <div class="control-row compact summary-control">
+          <label>
+            Highlight release
+            <select id="summary-release-select"></select>
+          </label>
+        </div>
+        <div class="summary-workbench">
+          <div class="stacked-column">
+            <article class="viz-cell full-span">
+              <div class="cell-head"><h3>Selected provider sentiment trend</h3><span class="cell-note">Hover points for counts and rates</span></div>
+              <div id="summary-sentiment-chart" class="chart-box compact-chart"></div>
+            </article>
+            <article class="viz-cell full-span">
+              <div class="cell-head"><h3>Release sentiment atlas</h3><span class="cell-note">Selected release is outlined</span></div>
+              <div id="summary-scatter" class="chart-box compact-chart"></div>
+            </article>
+          </div>
+          <article class="viz-cell full-span">
+            <div class="cell-head"><h3>Top concept deltas for selected release</h3><span class="cell-note">Top 5 rising and top 5 declining</span></div>
+            <div id="summary-release-deltas"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="model-extraction" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Model Extraction</p>
+          <h2>Discussion Prevalence And Co-Discussion Structure</h2>
+          <p>All controls in this section use the same selected taxonomy level and month range.</p>
+        </div>
+        <div class="control-row">
+          <label> Mention level <select id="mention-level"></select> </label>
+          <label> Start month <select id="mention-start-month"></select> </label>
+          <label> End month <select id="mention-end-month"></select> </label>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Selected-level mentions</h3></div>
+            <div id="mention-bars" class="chart-box small-chart"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Monthly prevalence by selected level</h3></div>
+            <div id="monthly-mention-chart" class="chart-box"></div>
+            <div id="mention-legend" class="line-legend"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Overall top entities</h3></div>
+            <div id="overall-level-bars"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Conditional co-discussion</h3><span class="cell-note">P(target | source)</span></div>
+            <div id="provider-conditional-matrix" class="heatmap"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Jaccard co-discussion</h3><span class="cell-note">Top 20 selected-level items</span></div>
+            <div id="comention-heatmap" class="heatmap"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Top co-discussion pairs</h3></div>
+            <div id="co-discussion-list"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Subreddit mention entropy</h3></div>
+            <div id="mention-entropy-chart" class="chart-box small-chart"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Validation</h3></div>
+            <div id="validation-table"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="single-multi" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Single vs. Multi Mention</p>
+          <h2>How Often Posts Compare Or Combine Models</h2>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Mention multiplicity totals</h3></div>
+            <div id="single-multi-summary" class="mini-cell-grid"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Monthly multi-mention rates</h3><span class="cell-note">"Multi-model" and "multi-generation" are the same thing in this dataset</span></div>
+            <div id="single-multi-monthly" class="chart-box small-chart"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Multi-mention rate by entity</h3><span class="cell-note">Share of each entity's posts that also mention another at the same level</span></div>
+            <div class="control-row compact">
+              <label> Level <select id="entity-multi-level"></select> </label>
+            </div>
+            <div id="entity-multi-monthly" class="chart-box small-chart"></div>
+            <div id="entity-multi-legend" class="line-legend"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Multi-mention by subreddit group</h3></div>
+            <div id="single-multi-groups"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="sentiment" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Sentiment</p>
+          <h2>Provider Trends And Release-Window Atlas</h2>
+          <p>SVG marks include hover titles with post counts, percentages, and release-window deltas.</p>
+        </div>
+        <div class="control-row">
+          <label> Provider <select id="sentiment-provider"></select> </label>
+          <label class="check"><input id="toggle-positive" type="checkbox" checked /> Positive</label>
+          <label class="check"><input id="toggle-neutral" type="checkbox" checked /> Neutral</label>
+          <label class="check"><input id="toggle-negative" type="checkbox" checked /> Negative</label>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Weekly sentiment shares</h3><span class="cell-note">Muted area = weekly volume</span></div>
+            <div id="sentiment-chart" class="chart-box large"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Trend estimates</h3></div>
+            <div id="trend-table"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Release sentiment atlas</h3></div>
+            <div class="control-row compact">
+              <label> Provider <select id="scatter-provider"></select> </label>
+              <label> Source <select id="scatter-source"></select> </label>
+              <label class="check"><input id="scatter-hide-first" type="checkbox" /> Hide first visible releases</label>
+            </div>
+            <div id="release-scatter" class="chart-box"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="subreddits" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Subreddit Structure</p>
+          <h2>Where Model Discussion Concentrates</h2>
+          <p>Aggregate subreddit and subreddit-group views show coverage and specialization without exposing individual posts.</p>
+        </div>
+        <div class="control-row">
+          <label> Subreddit <select id="subreddit-select"></select> </label>
+          <label> Level <select id="subreddit-level"></select> </label>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Coverage vs. multi-model discussion</h3></div>
+            <div id="subreddit-coverage" class="chart-box"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Selected subreddit top entities</h3></div>
+            <div id="subreddit-level-bars"></div>
+          </article>
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Specialization cells</h3></div>
+            <div id="subreddit-diversity-table"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="concepts" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Concept Landscape</p>
+          <h2>Concept Prevalence And The Public Concept Bank</h2>
+          <p>Prevalence data is exported as monthly/quarterly and aggregate scope tables, not raw post-level records.</p>
+        </div>
+        <div class="control-row">
+          <label> Time grain <select id="concept-granularity"></select> </label>
+          <label> Highlight concept <input id="concept-search" type="search" placeholder="Trust, expectation, productivity..." /> </label>
+          <label> Release markers <select id="concept-marker-provider"></select> </label>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Top-10 concept prevalence over time</h3><span class="cell-note">Dashed line = top-10 coverage</span></div>
+            <div id="concept-area" class="chart-box large"></div>
+            <div id="concept-legend" class="rank-list"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Concept family cells</h3></div>
+            <div id="concept-meta-matrix"></div>
+          </article>
+          <article id="concept-bank" class="viz-cell wide full-width-cell">
+            <div class="cell-head"><h3>Canonical concept bank</h3><span class="cell-note">Sortable aggregate prevalence</span></div>
+            <div class="control-row compact">
+              <label> Search <input id="concept-bank-search" type="search" placeholder="access, trust, jailbreak..." /> </label>
+              <label> Scope <select id="concept-bank-dimension"></select> </label>
+              <label> Scope value <select id="concept-bank-value"></select> </label>
+              <label> Concept sentiment <select id="concept-bank-sentiment"></select> </label>
+              <label> Sort <select id="concept-bank-sort"></select> </label>
+            </div>
+            <div id="concept-bank-table"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="concept-sentiment" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Concept Sentiment</p>
+          <h2>Human Concept-Valence Annotation And Agreement</h2>
+          <p>This section separates concept-level valence from prevalence and release-delta visualizations.</p>
+        </div>
+        <div class="control-row">
+          <label> Majority sentiment <select id="concept-sentiment-filter"></select> </label>
+          <label> Agreement <select id="concept-agreement-filter"></select> </label>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Annotation summary</h3></div>
+            <div id="concept-sentiment-summary" class="mini-cell-grid"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Majority valence</h3></div>
+            <div id="concept-sentiment-bars"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Annotator agreement</h3></div>
+            <div id="concept-agreement-bars"></div>
+          </article>
+          <article class="viz-cell wide full-width-cell">
+            <div class="cell-head"><h3>Concept annotation table</h3></div>
+            <div id="concept-sentiment-table"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="release-ranking" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Release Delta Ranking</p>
+          <h2>Interactive Concept Moves Around Releases</h2>
+          <p>Paper-focus releases are the main narrative cases; additional selected releases are shown for completeness.</p>
+        </div>
+        <div class="control-row">
+          <label> Provider <select id="ranking-provider"></select> </label>
+          <label> Release <select id="ranking-release"></select> </label>
+          <label> Direction <select id="ranking-direction"></select> </label>
+          <label> Search <input id="ranking-search" type="search" placeholder="expectation, memory, coding..." /> </label>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell wide full-width-cell">
+            <div class="cell-head"><h3>Ranked release deltas</h3></div>
+            <div id="release-ranking-list"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="release-concepts" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Release Concept Explorer</p>
+          <h2>Rising And Falling Concepts Around Releases</h2>
+          <p id="release-explorer-note">Paper-focus releases are marked in the profile; other selected releases are included for completeness.</p>
+        </div>
+        <div class="control-row">
+          <label> Provider <select id="concept-provider"></select> </label>
+          <label> Release <select id="concept-release"></select> </label>
+        </div>
+        <div class="visual-grid release-grid">
+          <article class="viz-cell wide">
+            <div class="cell-head"><h3>Concept delta bars</h3><span class="cell-note">Names are neutral; bar direction carries change</span></div>
+            <div id="concept-delta-bars"></div>
+          </article>
+          <article class="viz-cell">
+            <div class="cell-head"><h3>Release profile</h3></div>
+            <div id="release-profile"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="methods" class="paper-section">
+        <div class="section-head">
+          <p class="eyebrow">Methods</p>
+          <h2>Public Data And Provenance</h2>
+          <p>The website ships aggregate tables only. Raw Reddit text, Reddit post IDs, and local absolute paths are excluded.</p>
+        </div>
+        <div class="visual-grid">
+          <article class="viz-cell"><div class="cell-head"><h3>Filters</h3></div><div id="filter-list"></div></article>
+          <article class="viz-cell"><div class="cell-head"><h3>Generated bundle</h3></div><div id="manifest-summary"></div></article>
+          <article class="viz-cell wide"><div class="cell-head"><h3>Source manifest</h3></div><div id="source-table"></div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Aggregate paper companion site.</span>
+      <a href="assets/paper.pdf">Download paper PDF</a>
+    </footer>
+
+    <script src="nav.js" defer></script>
+    <script src="story.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

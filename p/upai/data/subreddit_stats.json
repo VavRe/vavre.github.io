@@ -1,0 +1,2678 @@
+{
+  "coverage_rows": [
+    {
+      "subreddit": "ChatGPT",
+      "total_posts": 391279,
+      "posts_with_terms": 207836,
+      "coverage_rate_pct": 53.1171,
+      "multi_model_posts": 35115,
+      "multi_model_rate_pct": 8.9744
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "total_posts": 67788,
+      "posts_with_terms": 30337,
+      "coverage_rate_pct": 44.7528,
+      "multi_model_posts": 10007,
+      "multi_model_rate_pct": 14.7622
+    },
+    {
+      "subreddit": "OpenAI",
+      "total_posts": 63766,
+      "posts_with_terms": 30717,
+      "coverage_rate_pct": 48.1714,
+      "multi_model_posts": 7566,
+      "multi_model_rate_pct": 11.8653
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "total_posts": 38754,
+      "posts_with_terms": 30334,
+      "coverage_rate_pct": 78.2732,
+      "multi_model_posts": 8141,
+      "multi_model_rate_pct": 21.0069
+    },
+    {
+      "subreddit": "Bard",
+      "total_posts": 25770,
+      "posts_with_terms": 16797,
+      "coverage_rate_pct": 65.1804,
+      "multi_model_posts": 4719,
+      "multi_model_rate_pct": 18.312
+    },
+    {
+      "subreddit": "grok",
+      "total_posts": 24241,
+      "posts_with_terms": 13774,
+      "coverage_rate_pct": 56.8211,
+      "multi_model_posts": 2100,
+      "multi_model_rate_pct": 8.663
+    },
+    {
+      "subreddit": "GeminiAI",
+      "total_posts": 22541,
+      "posts_with_terms": 14171,
+      "coverage_rate_pct": 62.8677,
+      "multi_model_posts": 3701,
+      "multi_model_rate_pct": 16.419
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "total_posts": 10307,
+      "posts_with_terms": 6441,
+      "coverage_rate_pct": 62.4915,
+      "multi_model_posts": 1514,
+      "multi_model_rate_pct": 14.689
+    },
+    {
+      "subreddit": "DeepSeek",
+      "total_posts": 9982,
+      "posts_with_terms": 6565,
+      "coverage_rate_pct": 65.7684,
+      "multi_model_posts": 1816,
+      "multi_model_rate_pct": 18.1927
+    },
+    {
+      "subreddit": "Anthropic",
+      "total_posts": 4402,
+      "posts_with_terms": 2752,
+      "coverage_rate_pct": 62.517,
+      "multi_model_posts": 729,
+      "multi_model_rate_pct": 16.5607
+    },
+    {
+      "subreddit": "GrokAI",
+      "total_posts": 2091,
+      "posts_with_terms": 782,
+      "coverage_rate_pct": 37.3984,
+      "multi_model_posts": 95,
+      "multi_model_rate_pct": 4.5433
+    },
+    {
+      "subreddit": "MistralAI",
+      "total_posts": 1994,
+      "posts_with_terms": 1287,
+      "coverage_rate_pct": 64.5436,
+      "multi_model_posts": 431,
+      "multi_model_rate_pct": 21.6148
+    },
+    {
+      "subreddit": "GoogleBard",
+      "total_posts": 1088,
+      "posts_with_terms": 779,
+      "coverage_rate_pct": 71.5993,
+      "multi_model_posts": 175,
+      "multi_model_rate_pct": 16.0846
+    },
+    {
+      "subreddit": "xAI_community",
+      "total_posts": 991,
+      "posts_with_terms": 74,
+      "coverage_rate_pct": 7.4672,
+      "multi_model_posts": 8,
+      "multi_model_rate_pct": 0.8073
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "total_posts": 976,
+      "posts_with_terms": 723,
+      "coverage_rate_pct": 74.0779,
+      "multi_model_posts": 218,
+      "multi_model_rate_pct": 22.3361
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "total_posts": 769,
+      "posts_with_terms": 445,
+      "coverage_rate_pct": 57.8674,
+      "multi_model_posts": 63,
+      "multi_model_rate_pct": 8.1925
+    },
+    {
+      "subreddit": "MetaAI",
+      "total_posts": 494,
+      "posts_with_terms": 47,
+      "coverage_rate_pct": 9.5142,
+      "multi_model_posts": 7,
+      "multi_model_rate_pct": 1.417
+    },
+    {
+      "subreddit": "kimi",
+      "total_posts": 223,
+      "posts_with_terms": 185,
+      "coverage_rate_pct": 82.9596,
+      "multi_model_posts": 54,
+      "multi_model_rate_pct": 24.2152
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "total_posts": 115,
+      "posts_with_terms": 59,
+      "coverage_rate_pct": 51.3043,
+      "multi_model_posts": 16,
+      "multi_model_rate_pct": 13.913
+    },
+    {
+      "subreddit": "xai",
+      "total_posts": 77,
+      "posts_with_terms": 37,
+      "coverage_rate_pct": 48.0519,
+      "multi_model_posts": 7,
+      "multi_model_rate_pct": 9.0909
+    }
+  ],
+  "top_terms_by_subreddit": [
+    {
+      "subreddit": "Anthropic",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 3518,
+      "post_count": 2602,
+      "post_share_pct": 59.1095,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 239,
+      "post_count": 213,
+      "post_share_pct": 4.8387,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 164,
+      "post_count": 151,
+      "post_share_pct": 3.4303,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "generation",
+      "value": "claude-4",
+      "label": "Claude-4",
+      "mention_count": 221,
+      "post_count": 172,
+      "post_share_pct": 3.9073,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "generation",
+      "value": "claude-3-5",
+      "label": "Claude-3-5",
+      "mention_count": 193,
+      "post_count": 166,
+      "post_share_pct": 3.771,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "generation",
+      "value": "claude-3",
+      "label": "Claude-3",
+      "mention_count": 176,
+      "post_count": 143,
+      "post_share_pct": 3.2485,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 3591,
+      "post_count": 2643,
+      "post_share_pct": 60.0409,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 480,
+      "post_count": 408,
+      "post_share_pct": 9.2685,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 170,
+      "post_count": 157,
+      "post_share_pct": 3.5666,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 584,
+      "post_count": 497,
+      "post_share_pct": 11.2903,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "tier",
+      "value": "opus",
+      "label": "Opus",
+      "mention_count": 401,
+      "post_count": 366,
+      "post_share_pct": 8.3144,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Anthropic",
+      "level": "tier",
+      "value": "haiku",
+      "label": "Haiku",
+      "mention_count": 82,
+      "post_count": 77,
+      "post_share_pct": 1.7492,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 58,
+      "post_count": 49,
+      "post_share_pct": 42.6087,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 13,
+      "post_count": 10,
+      "post_share_pct": 8.6957,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "family",
+      "value": "grok",
+      "label": "Grok",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 1.7391,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "generation",
+      "value": "claude-2",
+      "label": "Claude-2",
+      "mention_count": 10,
+      "post_count": 10,
+      "post_share_pct": 8.6957,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "generation",
+      "value": "gpt-4",
+      "label": "GPT-4",
+      "mention_count": 7,
+      "post_count": 6,
+      "post_share_pct": 5.2174,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "generation",
+      "value": "claude-1",
+      "label": "Claude-1",
+      "mention_count": 4,
+      "post_count": 4,
+      "post_share_pct": 3.4783,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 59,
+      "post_count": 50,
+      "post_share_pct": 43.4783,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 25,
+      "post_count": 19,
+      "post_share_pct": 16.5217,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 1.7391,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "tier",
+      "value": "instant",
+      "label": "Instant",
+      "mention_count": 4,
+      "post_count": 4,
+      "post_share_pct": 3.4783,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "tier",
+      "value": "opus",
+      "label": "Opus",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 1.7391,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "level": "tier",
+      "value": "haiku",
+      "label": "Haiku",
+      "mention_count": 2,
+      "post_count": 1,
+      "post_share_pct": 0.8696,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Bard",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 16314,
+      "post_count": 13055,
+      "post_share_pct": 50.6597,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Bard",
+      "level": "family",
+      "value": "bard",
+      "label": "Bard",
+      "mention_count": 3145,
+      "post_count": 3124,
+      "post_share_pct": 12.1226,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Bard",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 1218,
+      "post_count": 1033,
+      "post_share_pct": 4.0085,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Bard",
+      "level": "generation",
+      "value": "gemini-2-5",
+      "label": "Gemini-2-5",
+      "mention_count": 3115,
+      "post_count": 2745,
+      "post_share_pct": 10.6519,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Bard",
+      "level": "generation",
+      "value": "gemini-3-0",
+      "label": "Gemini-3-0",
+      "mention_count": 1585,
+      "post_count": 1442,
+      "post_share_pct": 5.5957,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Bard",
+      "level": "generation",
+      "value": "gemini-2-0",
+      "label": "Gemini-2-0",
+      "mention_count": 1219,
+      "post_count": 1070,
+      "post_share_pct": 4.1521,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Bard",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 19956,
+      "post_count": 16077,
+      "post_share_pct": 62.3865,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Bard",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 3213,
+      "post_count": 2621,
+      "post_share_pct": 10.1707,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Bard",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 937,
+      "post_count": 824,
+      "post_share_pct": 3.1975,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Bard",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 3816,
+      "post_count": 3502,
+      "post_share_pct": 13.5894,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Bard",
+      "level": "tier",
+      "value": "flash",
+      "label": "Flash",
+      "mention_count": 1560,
+      "post_count": 1415,
+      "post_share_pct": 5.4909,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Bard",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 196,
+      "post_count": 184,
+      "post_share_pct": 0.714,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 78784,
+      "post_count": 60963,
+      "post_share_pct": 15.5804,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 6086,
+      "post_count": 5631,
+      "post_share_pct": 1.4391,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "family",
+      "value": "o",
+      "label": "o",
+      "mention_count": 6024,
+      "post_count": 4764,
+      "post_share_pct": 1.2175,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "generation",
+      "value": "gpt-4",
+      "label": "GPT-4",
+      "mention_count": 18901,
+      "post_count": 17205,
+      "post_share_pct": 4.3971,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "generation",
+      "value": "gpt-4o",
+      "label": "GPT-4o",
+      "mention_count": 15628,
+      "post_count": 13753,
+      "post_share_pct": 3.5149,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "generation",
+      "value": "gpt-5",
+      "label": "GPT-5",
+      "mention_count": 11201,
+      "post_count": 9968,
+      "post_share_pct": 2.5475,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 250190,
+      "post_count": 201885,
+      "post_share_pct": 51.5962,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 8386,
+      "post_count": 7731,
+      "post_share_pct": 1.9758,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 5305,
+      "post_count": 4755,
+      "post_share_pct": 1.2152,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "tier",
+      "value": "mini",
+      "label": "Mini",
+      "mention_count": 2361,
+      "post_count": 2125,
+      "post_share_pct": 0.5431,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "tier",
+      "value": "turbo",
+      "label": "Turbo",
+      "mention_count": 1308,
+      "post_count": 1208,
+      "post_share_pct": 0.3087,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ChatGPT",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 644,
+      "post_count": 624,
+      "post_share_pct": 0.1595,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 38159,
+      "post_count": 29252,
+      "post_share_pct": 75.4812,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 2240,
+      "post_count": 1887,
+      "post_share_pct": 4.8692,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 1911,
+      "post_count": 1680,
+      "post_share_pct": 4.335,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "generation",
+      "value": "claude-3-5",
+      "label": "Claude-3-5",
+      "mention_count": 2361,
+      "post_count": 2119,
+      "post_share_pct": 5.4678,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "generation",
+      "value": "claude-4",
+      "label": "Claude-4",
+      "mention_count": 1571,
+      "post_count": 1280,
+      "post_share_pct": 3.3029,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "generation",
+      "value": "claude-3",
+      "label": "Claude-3",
+      "mention_count": 1570,
+      "post_count": 1308,
+      "post_share_pct": 3.3751,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 38807,
+      "post_count": 29647,
+      "post_share_pct": 76.5005,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 5670,
+      "post_count": 4517,
+      "post_share_pct": 11.6556,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 1960,
+      "post_count": 1709,
+      "post_share_pct": 4.4099,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 5156,
+      "post_count": 4579,
+      "post_share_pct": 11.8156,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "tier",
+      "value": "opus",
+      "label": "Opus",
+      "mention_count": 2777,
+      "post_count": 2507,
+      "post_share_pct": 6.469,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "level": "tier",
+      "value": "haiku",
+      "label": "Haiku",
+      "mention_count": 644,
+      "post_count": 582,
+      "post_share_pct": 1.5018,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "family",
+      "value": "deepseek",
+      "label": "DeepSeek",
+      "mention_count": 1141,
+      "post_count": 1029,
+      "post_share_pct": 10.3086,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "family",
+      "value": "deepseek-r1",
+      "label": "DeepSeek-R1",
+      "mention_count": 986,
+      "post_count": 931,
+      "post_share_pct": 9.3268,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 400,
+      "post_count": 359,
+      "post_share_pct": 3.5965,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "generation",
+      "value": "deepseek-r1",
+      "label": "DeepSeek-R1",
+      "mention_count": 976,
+      "post_count": 920,
+      "post_share_pct": 9.2166,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "generation",
+      "value": "deepseek",
+      "label": "DeepSeek",
+      "mention_count": 502,
+      "post_count": 476,
+      "post_share_pct": 4.7686,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "generation",
+      "value": "deepseek-v3",
+      "label": "DeepSeek-V3",
+      "mention_count": 334,
+      "post_count": 310,
+      "post_share_pct": 3.1056,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "provider",
+      "value": "deepseek",
+      "label": "DeepSeek",
+      "mention_count": 6882,
+      "post_count": 6083,
+      "post_share_pct": 60.9397,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 1515,
+      "post_count": 1329,
+      "post_share_pct": 13.314,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 362,
+      "post_count": 326,
+      "post_share_pct": 3.2659,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "tier",
+      "value": "base",
+      "label": "Base",
+      "mention_count": 238,
+      "post_count": 194,
+      "post_share_pct": 1.9435,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 89,
+      "post_count": 82,
+      "post_share_pct": 0.8215,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "DeepSeek",
+      "level": "tier",
+      "value": "mini",
+      "label": "Mini",
+      "mention_count": 66,
+      "post_count": 64,
+      "post_share_pct": 0.6412,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 16364,
+      "post_count": 13595,
+      "post_share_pct": 60.3123,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 843,
+      "post_count": 757,
+      "post_share_pct": 3.3583,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 819,
+      "post_count": 726,
+      "post_share_pct": 3.2208,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "generation",
+      "value": "gemini-2-5",
+      "label": "Gemini-2-5",
+      "mention_count": 2098,
+      "post_count": 1852,
+      "post_share_pct": 8.2161,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "generation",
+      "value": "gemini-3-0",
+      "label": "Gemini-3-0",
+      "mention_count": 1612,
+      "post_count": 1472,
+      "post_share_pct": 6.5303,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "generation",
+      "value": "gemini-2-0",
+      "label": "Gemini-2-0",
+      "mention_count": 310,
+      "post_count": 279,
+      "post_share_pct": 1.2377,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 16650,
+      "post_count": 13717,
+      "post_share_pct": 60.8536,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 2599,
+      "post_count": 2212,
+      "post_share_pct": 9.8132,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 845,
+      "post_count": 759,
+      "post_share_pct": 3.3672,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 2757,
+      "post_count": 2493,
+      "post_share_pct": 11.0598,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "tier",
+      "value": "flash",
+      "label": "Flash",
+      "mention_count": 797,
+      "post_count": 727,
+      "post_share_pct": 3.2252,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GeminiAI",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 89,
+      "post_count": 86,
+      "post_share_pct": 0.3815,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "family",
+      "value": "bard",
+      "label": "Bard",
+      "mention_count": 581,
+      "post_count": 566,
+      "post_share_pct": 52.0221,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 228,
+      "post_count": 197,
+      "post_share_pct": 18.1066,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 73,
+      "post_count": 63,
+      "post_share_pct": 5.7904,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "generation",
+      "value": "gpt-4",
+      "label": "GPT-4",
+      "mention_count": 43,
+      "post_count": 39,
+      "post_share_pct": 3.5846,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "generation",
+      "value": "gemini-1-5",
+      "label": "Gemini-1-5",
+      "mention_count": 23,
+      "post_count": 17,
+      "post_share_pct": 1.5625,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "generation",
+      "value": "gemini-3-0",
+      "label": "Gemini-3-0",
+      "mention_count": 12,
+      "post_count": 9,
+      "post_share_pct": 0.8272,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 821,
+      "post_count": 739,
+      "post_share_pct": 67.9228,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 182,
+      "post_count": 155,
+      "post_share_pct": 14.2463,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 21,
+      "post_count": 20,
+      "post_share_pct": 1.8382,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 38,
+      "post_count": 34,
+      "post_share_pct": 3.125,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "tier",
+      "value": "flash",
+      "label": "Flash",
+      "mention_count": 8,
+      "post_count": 8,
+      "post_share_pct": 0.7353,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleBard",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 4,
+      "post_count": 4,
+      "post_share_pct": 0.3676,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 470,
+      "post_count": 421,
+      "post_share_pct": 54.7464,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 16,
+      "post_count": 14,
+      "post_share_pct": 1.8205,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 6,
+      "post_count": 6,
+      "post_share_pct": 0.7802,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "generation",
+      "value": "gemini-2-5",
+      "label": "Gemini-2-5",
+      "mention_count": 34,
+      "post_count": 29,
+      "post_share_pct": 3.7711,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "generation",
+      "value": "gemini-3-0",
+      "label": "Gemini-3-0",
+      "mention_count": 24,
+      "post_count": 23,
+      "post_share_pct": 2.9909,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "generation",
+      "value": "gemini-2-0",
+      "label": "Gemini-2-0",
+      "mention_count": 19,
+      "post_count": 19,
+      "post_share_pct": 2.4707,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 485,
+      "post_count": 430,
+      "post_share_pct": 55.9168,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 59,
+      "post_count": 51,
+      "post_share_pct": 6.632,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 6,
+      "post_count": 6,
+      "post_share_pct": 0.7802,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 53,
+      "post_count": 47,
+      "post_share_pct": 6.1118,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "tier",
+      "value": "flash",
+      "label": "Flash",
+      "mention_count": 12,
+      "post_count": 12,
+      "post_share_pct": 1.5605,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "level": "tier",
+      "value": "flash-lite",
+      "label": "Flash-Lite",
+      "mention_count": 1,
+      "post_count": 1,
+      "post_share_pct": 0.13,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 7336,
+      "post_count": 6113,
+      "post_share_pct": 59.3092,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 342,
+      "post_count": 306,
+      "post_share_pct": 2.9689,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 279,
+      "post_count": 255,
+      "post_share_pct": 2.474,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "generation",
+      "value": "gemini-2-5",
+      "label": "Gemini-2-5",
+      "mention_count": 842,
+      "post_count": 725,
+      "post_share_pct": 7.0341,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "generation",
+      "value": "gemini-3-0",
+      "label": "Gemini-3-0",
+      "mention_count": 331,
+      "post_count": 289,
+      "post_share_pct": 2.8039,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "generation",
+      "value": "gemini-2-0",
+      "label": "Gemini-2-0",
+      "mention_count": 278,
+      "post_count": 252,
+      "post_share_pct": 2.4449,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 7581,
+      "post_count": 6231,
+      "post_share_pct": 60.4541,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 1007,
+      "post_count": 874,
+      "post_share_pct": 8.4797,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 280,
+      "post_count": 256,
+      "post_share_pct": 2.4837,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 1090,
+      "post_count": 985,
+      "post_share_pct": 9.5566,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "tier",
+      "value": "flash",
+      "label": "Flash",
+      "mention_count": 452,
+      "post_count": 402,
+      "post_share_pct": 3.9003,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 32,
+      "post_count": 30,
+      "post_share_pct": 0.2911,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "family",
+      "value": "grok",
+      "label": "Grok",
+      "mention_count": 809,
+      "post_count": 753,
+      "post_share_pct": 36.0115,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 31,
+      "post_count": 29,
+      "post_share_pct": 1.3869,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 27,
+      "post_count": 23,
+      "post_share_pct": 1.1,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "generation",
+      "value": "grok-3",
+      "label": "Grok-3",
+      "mention_count": 42,
+      "post_count": 40,
+      "post_share_pct": 1.913,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "generation",
+      "value": "grok-4",
+      "label": "Grok-4",
+      "mention_count": 29,
+      "post_count": 29,
+      "post_share_pct": 1.3869,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "generation",
+      "value": "grok-2",
+      "label": "Grok-2",
+      "mention_count": 14,
+      "post_count": 13,
+      "post_share_pct": 0.6217,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "provider",
+      "value": "xai",
+      "label": "xAI",
+      "mention_count": 810,
+      "post_count": 753,
+      "post_share_pct": 36.0115,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 78,
+      "post_count": 71,
+      "post_share_pct": 3.3955,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 31,
+      "post_count": 29,
+      "post_share_pct": 1.3869,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "tier",
+      "value": "mini",
+      "label": "Mini",
+      "mention_count": 4,
+      "post_count": 4,
+      "post_share_pct": 0.1913,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "tier",
+      "value": "base",
+      "label": "Base",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 0.0956,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "GrokAI",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 0.0956,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "family",
+      "value": "llama",
+      "label": "Llama",
+      "mention_count": 15482,
+      "post_count": 12699,
+      "post_share_pct": 18.7334,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "family",
+      "value": "qwen",
+      "label": "Qwen",
+      "mention_count": 7250,
+      "post_count": 5460,
+      "post_share_pct": 8.0545,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 5803,
+      "post_count": 4736,
+      "post_share_pct": 6.9865,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "generation",
+      "value": "qwen-3",
+      "label": "Qwen-3",
+      "mention_count": 3260,
+      "post_count": 2522,
+      "post_share_pct": 3.7204,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "generation",
+      "value": "llama-3",
+      "label": "Llama-3",
+      "mention_count": 2742,
+      "post_count": 2320,
+      "post_share_pct": 3.4224,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "generation",
+      "value": "llama-2",
+      "label": "Llama-2",
+      "mention_count": 2634,
+      "post_count": 2213,
+      "post_share_pct": 3.2646,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "provider",
+      "value": "meta",
+      "label": "Meta",
+      "mention_count": 15536,
+      "post_count": 12757,
+      "post_share_pct": 18.819,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 9744,
+      "post_count": 7802,
+      "post_share_pct": 11.5094,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "provider",
+      "value": "alibaba",
+      "label": "Alibaba",
+      "mention_count": 7717,
+      "post_count": 5755,
+      "post_share_pct": 8.4897,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "tier",
+      "value": "70b",
+      "label": "70B",
+      "mention_count": 1424,
+      "post_count": 1297,
+      "post_share_pct": 1.9133,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "tier",
+      "value": "8b",
+      "label": "8B",
+      "mention_count": 1316,
+      "post_count": 1194,
+      "post_share_pct": 1.7614,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "level": "tier",
+      "value": "7b",
+      "label": "7B",
+      "mention_count": 1157,
+      "post_count": 1075,
+      "post_share_pct": 1.5858,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "family",
+      "value": "llama",
+      "label": "Llama",
+      "mention_count": 12,
+      "post_count": 10,
+      "post_share_pct": 2.0243,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 6,
+      "post_count": 6,
+      "post_share_pct": 1.2146,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 1,
+      "post_count": 1,
+      "post_share_pct": 0.2024,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "generation",
+      "value": "llama-3-1",
+      "label": "Llama-3-1",
+      "mention_count": 3,
+      "post_count": 3,
+      "post_share_pct": 0.6073,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "generation",
+      "value": "llama-4",
+      "label": "Llama-4",
+      "mention_count": 3,
+      "post_count": 3,
+      "post_share_pct": 0.6073,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "generation",
+      "value": "llama-3",
+      "label": "Llama-3",
+      "mention_count": 3,
+      "post_count": 3,
+      "post_share_pct": 0.6073,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "provider",
+      "value": "meta",
+      "label": "Meta",
+      "mention_count": 38,
+      "post_count": 34,
+      "post_share_pct": 6.8826,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 12,
+      "post_count": 12,
+      "post_share_pct": 2.4291,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 6,
+      "post_count": 6,
+      "post_share_pct": 1.2146,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "MetaAI",
+      "level": "tier",
+      "value": "405b",
+      "label": "405B",
+      "mention_count": 1,
+      "post_count": 1,
+      "post_share_pct": 0.2024,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "family",
+      "value": "mistral",
+      "label": "Mistral",
+      "mention_count": 753,
+      "post_count": 648,
+      "post_share_pct": 32.4975,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 135,
+      "post_count": 112,
+      "post_share_pct": 5.6169,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 104,
+      "post_count": 92,
+      "post_share_pct": 4.6138,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "generation",
+      "value": "mistral",
+      "label": "Mistral",
+      "mention_count": 277,
+      "post_count": 228,
+      "post_share_pct": 11.4343,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "generation",
+      "value": "gpt-4",
+      "label": "GPT-4",
+      "mention_count": 43,
+      "post_count": 41,
+      "post_share_pct": 2.0562,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "generation",
+      "value": "gpt-4o",
+      "label": "GPT-4o",
+      "mention_count": 29,
+      "post_count": 26,
+      "post_share_pct": 1.3039,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "provider",
+      "value": "mistral",
+      "label": "Mistral",
+      "mention_count": 1485,
+      "post_count": 1185,
+      "post_share_pct": 59.4283,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 361,
+      "post_count": 290,
+      "post_share_pct": 14.5436,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 107,
+      "post_count": 95,
+      "post_share_pct": 4.7643,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "tier",
+      "value": "large",
+      "label": "Large",
+      "mention_count": 76,
+      "post_count": 73,
+      "post_share_pct": 3.661,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "tier",
+      "value": "7b",
+      "label": "7B",
+      "mention_count": 59,
+      "post_count": 56,
+      "post_share_pct": 2.8084,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "MistralAI",
+      "level": "tier",
+      "value": "medium",
+      "label": "Medium",
+      "mention_count": 57,
+      "post_count": 50,
+      "post_share_pct": 2.5075,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 17571,
+      "post_count": 13190,
+      "post_share_pct": 20.685,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "family",
+      "value": "o",
+      "label": "o",
+      "mention_count": 3231,
+      "post_count": 2409,
+      "post_share_pct": 3.7779,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 1765,
+      "post_count": 1548,
+      "post_share_pct": 2.4276,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "generation",
+      "value": "gpt-4",
+      "label": "GPT-4",
+      "mention_count": 4203,
+      "post_count": 3746,
+      "post_share_pct": 5.8746,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "generation",
+      "value": "gpt-4o",
+      "label": "GPT-4o",
+      "mention_count": 3592,
+      "post_count": 3113,
+      "post_share_pct": 4.8819,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "generation",
+      "value": "gpt-5",
+      "label": "GPT-5",
+      "mention_count": 3030,
+      "post_count": 2607,
+      "post_share_pct": 4.0884,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 39481,
+      "post_count": 28928,
+      "post_share_pct": 45.3659,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 2049,
+      "post_count": 1811,
+      "post_share_pct": 2.8401,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 1776,
+      "post_count": 1555,
+      "post_share_pct": 2.4386,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "tier",
+      "value": "mini",
+      "label": "Mini",
+      "mention_count": 1250,
+      "post_count": 1090,
+      "post_share_pct": 1.7094,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "tier",
+      "value": "turbo",
+      "label": "Turbo",
+      "mention_count": 703,
+      "post_count": 651,
+      "post_share_pct": 1.0209,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "OpenAI",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 319,
+      "post_count": 301,
+      "post_share_pct": 0.472,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "family",
+      "value": "qwen",
+      "label": "Qwen",
+      "mention_count": 906,
+      "post_count": 682,
+      "post_share_pct": 69.877,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 53,
+      "post_count": 49,
+      "post_share_pct": 5.0205,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 46,
+      "post_count": 43,
+      "post_share_pct": 4.4057,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "generation",
+      "value": "qwen-3",
+      "label": "Qwen-3",
+      "mention_count": 324,
+      "post_count": 239,
+      "post_share_pct": 24.4877,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "generation",
+      "value": "qwen-2-5",
+      "label": "Qwen-2-5",
+      "mention_count": 96,
+      "post_count": 76,
+      "post_share_pct": 7.7869,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "generation",
+      "value": "qwen-3-vl",
+      "label": "Qwen-3-VL",
+      "mention_count": 27,
+      "post_count": 23,
+      "post_share_pct": 2.3566,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "provider",
+      "value": "alibaba",
+      "label": "Alibaba",
+      "mention_count": 924,
+      "post_count": 692,
+      "post_share_pct": 70.9016,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 88,
+      "post_count": 74,
+      "post_share_pct": 7.582,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 55,
+      "post_count": 51,
+      "post_share_pct": 5.2254,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "tier",
+      "value": "max",
+      "label": "Max",
+      "mention_count": 56,
+      "post_count": 53,
+      "post_share_pct": 5.4303,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "tier",
+      "value": "30b",
+      "label": "30B",
+      "mention_count": 30,
+      "post_count": 28,
+      "post_share_pct": 2.8689,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "level": "tier",
+      "value": "32b",
+      "label": "32B",
+      "mention_count": 27,
+      "post_count": 22,
+      "post_share_pct": 2.2541,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "grok",
+      "level": "family",
+      "value": "grok",
+      "label": "Grok",
+      "mention_count": 14712,
+      "post_count": 13386,
+      "post_share_pct": 55.2205,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "grok",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 535,
+      "post_count": 502,
+      "post_share_pct": 2.0709,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "grok",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 508,
+      "post_count": 447,
+      "post_share_pct": 1.844,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "grok",
+      "level": "generation",
+      "value": "grok-3",
+      "label": "Grok-3",
+      "mention_count": 961,
+      "post_count": 922,
+      "post_share_pct": 3.8035,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "grok",
+      "level": "generation",
+      "value": "grok-4",
+      "label": "Grok-4",
+      "mention_count": 702,
+      "post_count": 666,
+      "post_share_pct": 2.7474,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "grok",
+      "level": "generation",
+      "value": "grok-2",
+      "label": "Grok-2",
+      "mention_count": 216,
+      "post_count": 201,
+      "post_share_pct": 0.8292,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "grok",
+      "level": "provider",
+      "value": "xai",
+      "label": "xAI",
+      "mention_count": 14715,
+      "post_count": 13386,
+      "post_share_pct": 55.2205,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "grok",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 1660,
+      "post_count": 1431,
+      "post_share_pct": 5.9032,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "grok",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 553,
+      "post_count": 516,
+      "post_share_pct": 2.1286,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "grok",
+      "level": "tier",
+      "value": "pro",
+      "label": "Pro",
+      "mention_count": 92,
+      "post_count": 88,
+      "post_share_pct": 0.363,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "grok",
+      "level": "tier",
+      "value": "mini",
+      "label": "Mini",
+      "mention_count": 71,
+      "post_count": 69,
+      "post_share_pct": 0.2846,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "grok",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 49,
+      "post_count": 46,
+      "post_share_pct": 0.1898,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "kimi",
+      "level": "family",
+      "value": "kimi",
+      "label": "Kimi",
+      "mention_count": 208,
+      "post_count": 180,
+      "post_share_pct": 80.7175,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "kimi",
+      "level": "family",
+      "value": "claude",
+      "label": "Claude",
+      "mention_count": 21,
+      "post_count": 21,
+      "post_share_pct": 9.417,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "kimi",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 17,
+      "post_count": 16,
+      "post_share_pct": 7.1749,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "kimi",
+      "level": "generation",
+      "value": "kimi-k2",
+      "label": "Kimi-K2",
+      "mention_count": 103,
+      "post_count": 96,
+      "post_share_pct": 43.0493,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "kimi",
+      "level": "generation",
+      "value": "gpt-5",
+      "label": "GPT-5",
+      "mention_count": 8,
+      "post_count": 8,
+      "post_share_pct": 3.5874,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "kimi",
+      "level": "generation",
+      "value": "gemini-3-0",
+      "label": "Gemini-3-0",
+      "mention_count": 5,
+      "post_count": 5,
+      "post_share_pct": 2.2422,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "kimi",
+      "level": "provider",
+      "value": "moonshot-ai",
+      "label": "Moonshot AI",
+      "mention_count": 208,
+      "post_count": 180,
+      "post_share_pct": 80.7175,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "kimi",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 25,
+      "post_count": 22,
+      "post_share_pct": 9.8655,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "kimi",
+      "level": "provider",
+      "value": "anthropic",
+      "label": "Anthropic",
+      "mention_count": 21,
+      "post_count": 21,
+      "post_share_pct": 9.417,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "kimi",
+      "level": "tier",
+      "value": "turbo",
+      "label": "Turbo",
+      "mention_count": 8,
+      "post_count": 7,
+      "post_share_pct": 3.139,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "kimi",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 4,
+      "post_count": 4,
+      "post_share_pct": 1.7937,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "kimi",
+      "level": "tier",
+      "value": "opus",
+      "label": "Opus",
+      "mention_count": 1,
+      "post_count": 1,
+      "post_share_pct": 0.4484,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "family",
+      "value": "grok",
+      "label": "Grok",
+      "mention_count": 71,
+      "post_count": 65,
+      "post_share_pct": 6.559,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 8,
+      "post_count": 8,
+      "post_share_pct": 0.8073,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "family",
+      "value": "gpt",
+      "label": "GPT",
+      "mention_count": 7,
+      "post_count": 4,
+      "post_share_pct": 0.4036,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "generation",
+      "value": "grok-4",
+      "label": "Grok-4",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 0.2018,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "generation",
+      "value": "grok-4-1",
+      "label": "Grok-4-1",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 0.2018,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "generation",
+      "value": "gpt-4",
+      "label": "GPT-4",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 0.2018,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "provider",
+      "value": "xai",
+      "label": "xAI",
+      "mention_count": 72,
+      "post_count": 66,
+      "post_share_pct": 6.6599,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 12,
+      "post_count": 9,
+      "post_share_pct": 0.9082,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "provider",
+      "value": "google",
+      "label": "Google",
+      "mention_count": 8,
+      "post_count": 8,
+      "post_share_pct": 0.8073,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "tier",
+      "value": "base",
+      "label": "Base",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 0.2018,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xAI_community",
+      "level": "tier",
+      "value": "sonnet",
+      "label": "Sonnet",
+      "mention_count": 1,
+      "post_count": 1,
+      "post_share_pct": 0.1009,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xai",
+      "level": "family",
+      "value": "grok",
+      "label": "Grok",
+      "mention_count": 34,
+      "post_count": 32,
+      "post_share_pct": 41.5584,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xai",
+      "level": "family",
+      "value": "deepseek",
+      "label": "DeepSeek",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 2.5974,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xai",
+      "level": "family",
+      "value": "gemini",
+      "label": "Gemini",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 2.5974,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xai",
+      "level": "generation",
+      "value": "grok-3",
+      "label": "Grok-3",
+      "mention_count": 3,
+      "post_count": 3,
+      "post_share_pct": 3.8961,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xai",
+      "level": "generation",
+      "value": "grok-4",
+      "label": "Grok-4",
+      "mention_count": 3,
+      "post_count": 3,
+      "post_share_pct": 3.8961,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xai",
+      "level": "generation",
+      "value": "deepseek",
+      "label": "DeepSeek",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 2.5974,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xai",
+      "level": "provider",
+      "value": "xai",
+      "label": "xAI",
+      "mention_count": 34,
+      "post_count": 32,
+      "post_share_pct": 41.5584,
+      "rank_within_subreddit": 1
+    },
+    {
+      "subreddit": "xai",
+      "level": "provider",
+      "value": "openai",
+      "label": "OpenAI",
+      "mention_count": 9,
+      "post_count": 9,
+      "post_share_pct": 11.6883,
+      "rank_within_subreddit": 2
+    },
+    {
+      "subreddit": "xai",
+      "level": "provider",
+      "value": "deepseek",
+      "label": "DeepSeek",
+      "mention_count": 2,
+      "post_count": 2,
+      "post_share_pct": 2.5974,
+      "rank_within_subreddit": 3
+    },
+    {
+      "subreddit": "xai",
+      "level": "tier",
+      "value": "base",
+      "label": "Base",
+      "mention_count": 1,
+      "post_count": 1,
+      "post_share_pct": 1.2987,
+      "rank_within_subreddit": 1
+    }
+  ],
+  "diversity_rows": [
+    {
+      "subreddit": "Anthropic",
+      "provider_entropy_normalized": 0.305,
+      "provider_hhi": 0.658,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.2362,
+      "family_hhi": 0.7262
+    },
+    {
+      "subreddit": "AnthropicAi",
+      "provider_entropy_normalized": 0.3364,
+      "provider_hhi": 0.5384,
+      "provider_js_specialization": 0.1405,
+      "family_entropy_normalized": 0.2628,
+      "family_hhi": 0.6316
+    },
+    {
+      "subreddit": "Bard",
+      "provider_entropy_normalized": 0.3071,
+      "provider_hhi": 0.6532,
+      "provider_js_specialization": 0.2247,
+      "family_entropy_normalized": 0.398,
+      "family_hhi": 0.5021
+    },
+    {
+      "subreddit": "ChatGPT",
+      "provider_entropy_normalized": 0.1748,
+      "provider_hhi": 0.8394,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.3782,
+      "family_hhi": 0.5641
+    },
+    {
+      "subreddit": "ClaudeAI",
+      "provider_entropy_normalized": 0.2991,
+      "provider_hhi": 0.6632,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.2317,
+      "family_hhi": 0.739
+    },
+    {
+      "subreddit": "DeepSeek",
+      "provider_entropy_normalized": 0.4287,
+      "provider_hhi": 0.5331,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.7185,
+      "family_hhi": 0.1787
+    },
+    {
+      "subreddit": "GeminiAI",
+      "provider_entropy_normalized": 0.3072,
+      "provider_hhi": 0.6507,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.2225,
+      "family_hhi": 0.7532
+    },
+    {
+      "subreddit": "GoogleBard",
+      "provider_entropy_normalized": 0.2674,
+      "provider_hhi": 0.664,
+      "provider_js_specialization": 0.1667,
+      "family_entropy_normalized": 0.3565,
+      "family_hhi": 0.4916
+    },
+    {
+      "subreddit": "GoogleGemini",
+      "provider_entropy_normalized": 0.1843,
+      "provider_hhi": 0.7811,
+      "provider_js_specialization": 0.1681,
+      "family_entropy_normalized": 0.1127,
+      "family_hhi": 0.8843
+    },
+    {
+      "subreddit": "GoogleGeminiAI",
+      "provider_entropy_normalized": 0.2805,
+      "provider_hhi": 0.6872,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.218,
+      "family_hhi": 0.768
+    },
+    {
+      "subreddit": "GrokAI",
+      "provider_entropy_normalized": 0.2423,
+      "provider_hhi": 0.7402,
+      "provider_js_specialization": 0.1677,
+      "family_entropy_normalized": 0.1496,
+      "family_hhi": 0.8354
+    },
+    {
+      "subreddit": "LocalLLaMA",
+      "provider_entropy_normalized": 0.7772,
+      "provider_hhi": 0.188,
+      "provider_js_specialization": 0.2247,
+      "family_entropy_normalized": 0.7468,
+      "family_hhi": 0.1816
+    },
+    {
+      "subreddit": "MetaAI",
+      "provider_entropy_normalized": 0.3609,
+      "provider_hhi": 0.4941,
+      "provider_js_specialization": 0.1921,
+      "family_entropy_normalized": 0.3053,
+      "family_hhi": 0.474
+    },
+    {
+      "subreddit": "MistralAI",
+      "provider_entropy_normalized": 0.4475,
+      "provider_hhi": 0.4993,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.5062,
+      "family_hhi": 0.403
+    },
+    {
+      "subreddit": "OpenAI",
+      "provider_entropy_normalized": 0.2792,
+      "provider_hhi": 0.7226,
+      "provider_js_specialization": 0.2247,
+      "family_entropy_normalized": 0.4553,
+      "family_hhi": 0.4529
+    },
+    {
+      "subreddit": "Qwen_AI",
+      "provider_entropy_normalized": 0.4403,
+      "provider_hhi": 0.5513,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.3785,
+      "family_hhi": 0.5913
+    },
+    {
+      "subreddit": "grok",
+      "provider_entropy_normalized": 0.2707,
+      "provider_hhi": 0.7124,
+      "provider_js_specialization": 0.1989,
+      "family_entropy_normalized": 0.1828,
+      "family_hhi": 0.8061
+    },
+    {
+      "subreddit": "kimi",
+      "provider_entropy_normalized": 0.4531,
+      "provider_hhi": 0.5178,
+      "provider_js_specialization": 0.2111,
+      "family_entropy_normalized": 0.371,
+      "family_hhi": 0.5555
+    },
+    {
+      "subreddit": "xAI_community",
+      "provider_entropy_normalized": 0.3686,
+      "provider_hhi": 0.5826,
+      "provider_js_specialization": 0.15,
+      "family_entropy_normalized": 0.298,
+      "family_hhi": 0.6269
+    },
+    {
+      "subreddit": "xai",
+      "provider_entropy_normalized": 0.3868,
+      "provider_hhi": 0.5265,
+      "provider_js_specialization": 0.2179,
+      "family_entropy_normalized": 0.233,
+      "family_hhi": 0.7161
+    }
+  ]
+}
