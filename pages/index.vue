@@ -33,7 +33,7 @@
                   <i class="fab fa-twitter"></i>
                 </a>
                 <span class="text-sm text-gray-600 align-middle">
-                  Last Update: Dec 2025
+                  Last Update: Aug 2026
                 </span>
               </div>
               <a href="/CV_Vahid_Rahimzadeh_Jun_2026.pdf" class="inline-block px-4 py-2 text-white transition duration-300 rounded bg-primary-600 hover:bg-primary-700">
@@ -47,10 +47,7 @@
               I am a First-year PhD Candidate at the <a href="https://www.tudelft.nl/en/tpm" class="font-semibold insist">Faculty of Technology, Policy and Management (TPM), TU Delft</a>, supervised by <a href="https://zsavvas.github.io/" class="font-semibold insist">Dr. Savvas Zannettou</a> and <a class="font-semibold insist" href="https://zhauniarovich.com/">Dr. Yury Zhauniarovich</a>.
             </p>
             <p class="mt-4 leading-relaxed text-gray-800">
-              My research focuses on <span class="font-semibold insist">safety in human&ndash;AI interaction</span>, particularly Conversational AI Systems. I study how people interact with, perceive, and are affected by these systems, as well as the behavior of Conversational AI Systems themselves, with the goal of understanding and making these interactions safer.
-            </p>
-            <p class="mt-4 leading-relaxed text-gray-800">
-              Grounded in a rigorous engineering background and professional experience as an AI/Software Engineer, I approach research with a builder's mindset.
+              My research focuses on <span class="font-semibold insist">safety in human&ndash;AI interaction</span>, particularly Conversational AI Systems. I study how people interact with, perceive, and are affected by these systems, as well as the behavior of Conversational AI Systems themselves, with the goal of understanding and making these interactions safer. Grounded in a rigorous engineering background and professional experience as an AI/Software Engineer, I approach research with a builder's mindset.
             </p>
             <p class="mt-4 leading-relaxed text-gray-800">
               My work has been published at ACL, EMNLP, NAACL, and AAAI ICWSM. I also regularly serve the research community as an Area Chair, Session Chair, and Reviewer for conferences including ACL, EMNLP, NeurIPS, AAAI, and ECIR.

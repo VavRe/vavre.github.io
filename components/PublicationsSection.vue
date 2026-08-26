@@ -6,15 +6,15 @@
       
 
       <div class="mb-4 pb-4 border-b border-gray-300">
-        <h3 class="text-base font-bold"><span class="text-primary-800">Synthia: Scalable Grounded Persona Generation from Social Media Data</span></h3>
-        <p class="text-gray-600">Accepted at ACL 2026 Main Conference</p>
-        <p class="italic text-gray-700"><strong>V. Rahimzadeh*</strong>, E. Moosavi*, MT. Pilehvar, Y. Yaghoobzadeh <sup>*</sup>equal contribution</p>
+        <h3 class="text-base font-bold"><span class="text-primary-800">Expectation, Backlash, Recovery, and Excitement: How Model Releases Shape Reddit Perceptions of Conversational AI Systems</span></h3>
+        <p class="text-gray-600">Accepted at EMNLP 2026 Main Conference &middot; <a class="insist font-semibold" href="/p/upai">Interactive paper companion</a></p>
+        <p class="italic text-gray-700"><strong>V. Rahimzadeh</strong>, Y. Zhauniarovich, S. Zannettou</p>
       </div>
 
       <div class="mb-4 pb-4 border-b border-gray-300">
-        <h3 class="text-base font-bold"><span class="text-primary-800">Expectation, Backlash, Recovery, and Excitement: How Model Releases Shape Reddit Perceptions of Conversational AI Systems</span></h3>
-        <p class="text-gray-600">Submitted to EMNLP 2026 &middot; <a class="insist font-semibold" href="/p/upai">Interactive paper companion</a></p>
-        <p class="italic text-gray-700"><strong>V. Rahimzadeh</strong>, Y. Zhauniarovich, S. Zannettou</p>
+        <h3 class="text-base font-bold"><span class="text-primary-800">Synthia: Scalable Grounded Persona Generation from Social Media Data</span></h3>
+        <p class="text-gray-600">Accepted at ACL 2026 Main Conference</p>
+        <p class="italic text-gray-700"><strong>V. Rahimzadeh*</strong>, E. Moosavi*, MT. Pilehvar, Y. Yaghoobzadeh <sup>*</sup>equal contribution</p>
       </div>
 
       <div class="mb-4">
