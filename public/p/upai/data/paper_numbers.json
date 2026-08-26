@@ -1,0 +1,102 @@
+{
+  "title": "Expectation, Backlash, Recovery, and Excitement",
+  "subtitle": "How model releases shape Reddit perceptions of conversational AI systems",
+  "public_url": "https://vavre.github.io/p/upai/",
+  "abstract": "Conversational AI systems continuously change through model releases, feature updates, safety interventions, and access-policy shifts. This project studies Reddit discussions from October 2022 to December 2025 to show how model releases reshape sentiment, expectations, trust, access concerns, and public discussion themes.",
+  "headline_metrics": [
+    {
+      "label": "Reddit posts",
+      "value": 668063,
+      "display": "668K",
+      "note": "Text posts from 20 CAIS-related subreddits after removed/deleted filtering."
+    },
+    {
+      "label": "Model-mentioned posts",
+      "value": 363546,
+      "display": "363K",
+      "note": "Posts with at least one extracted model mention in the final paper table."
+    },
+    {
+      "label": "Extracted mentions",
+      "value": 505250,
+      "display": "505K",
+      "note": "Model mentions mapped into the provider/family/generation/tier taxonomy."
+    },
+    {
+      "label": "Canonical concepts",
+      "value": 236,
+      "display": "236",
+      "note": "LLooM-derived perception concepts after deduplication."
+    },
+    {
+      "label": "Raw concepts",
+      "value": 4979,
+      "display": "4,979",
+      "note": "Concepts induced across 365 chronological batches before deduplication."
+    },
+    {
+      "label": "Sentiment F1",
+      "value": 0.82,
+      "display": "0.82",
+      "note": "Weighted F1 against majority-vote human labels."
+    }
+  ],
+  "taxonomy": {
+    "entries": 189,
+    "providers": 9,
+    "families": 15,
+    "generations": 50,
+    "tiers": 39
+  },
+  "concept_summary": {
+    "scored_pairs": 4604482,
+    "unique_posts": 364179,
+    "unique_concepts": 236,
+    "positive_strict_rows": 804893
+  },
+  "mention_validation": {
+    "sample_posts": 397,
+    "gt_mentions_raw": 601,
+    "pred_mentions": 562,
+    "matched_mentions": 501,
+    "post_level_micro_f1": 0.891,
+    "raw_mention_exact_match_rate": 0.83
+  },
+  "release_stories": [
+    {
+      "provider": "OpenAI",
+      "models": [
+        "GPT-4o",
+        "GPT-5",
+        "GPT-5.1"
+      ],
+      "title": "Expectation, Backlash, Recovery",
+      "summary": "GPT-4o concentrates the paper's strongest expectation-gap signal; GPT-5 turns that accumulated attachment into backlash, while GPT-5.1 reduces the intensity of the revolt."
+    },
+    {
+      "provider": "Anthropic",
+      "models": [
+        "Claude 4"
+      ],
+      "title": "Product-Model Fit",
+      "summary": "Claude 4 is the clearest positive release profile, with coding, automation, and Claude Code discussion replacing earlier failure-mode complaints."
+    },
+    {
+      "provider": "DeepSeek",
+      "models": [
+        "DS R1"
+      ],
+      "title": "Demand Shock",
+      "summary": "R1 expands the discussion almost overnight: technical praise coexists with access failures, reliability concerns, and censorship discovery."
+    },
+    {
+      "provider": "xAI",
+      "models": [
+        "Grok 3"
+      ],
+      "title": "Politicized Anthropomorphism",
+      "summary": "Grok 3 is read through model quality, provider identity, and political persona at the same time."
+    }
+  ],
+  "source_note": "Public bundle generated from aggregate/source-of-truth artifacts; raw Reddit text and post IDs are not published."
+}

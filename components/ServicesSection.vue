@@ -5,6 +5,7 @@
       <h2 class="inline-block px-4 py-2 mb-6 text-base font-bold border rounded bg-primary-50 border-primary-200">Services</h2>
       
       <ul class="grid grid-cols-2 gap-x-6 gap-y-3 list-disc list-inside">
+        <li><span class="font-semibold">EMNLP 2026:</span> Area Chair</li>
         <li><span class="font-semibold">ACL 2026:</span> Session Chair</li>
         <li><span class="font-semibold">NeurIPS 2026:</span> Reviewer</li>
         <li><span class="font-semibold">ECIR 2025-2026:</span> Organizing Volunteer & PC Member</li>

@@ -46,6 +46,11 @@ export default defineNuxtConfig({
     preset: 'static',
     output: {
       publicDir: 'docs'
+    },
+    prerender: {
+      // /p/upai is a hand-built static site served from public/. It is not a Nuxt
+      // route, so the crawler must not try to prerender the links pointing at it.
+      ignore: ['/p/upai']
     }
   },
 

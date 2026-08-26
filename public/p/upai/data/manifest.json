@@ -1,0 +1,555 @@
+{
+  "generated_at_utc": "2026-08-03T18:27:24.595115+00:00",
+  "source_repo": "user-perception-ai",
+  "public_route": "/p/upai/",
+  "privacy_policy": [
+    "No raw Reddit text is exported.",
+    "No Reddit post IDs are exported.",
+    "No local absolute filesystem paths are exported.",
+    "All source paths in this manifest are relative to the analysis repository."
+  ],
+  "filters": {
+    "sentiment_population": "Final enhanced-prompt LLM sentiment run; exactly one resolved model mention; usable body text; reddit_post_hint != link.",
+    "concept_population": "Concept rows with score >= 0.5, restricted to the sentiment population for the public prevalence chart.",
+    "release_windows": "Provider-specific symmetric windows around release dates; sentiment deltas are post minus pre percentage points.",
+    "concept_release_deltas": "Single-mention IQR-coverage selected interventions, top rising and falling concepts by release.",
+    "discussion_prevalence": "Aggregate model-mention prevalence only; monthly and subreddit slices are exported without raw post text or IDs.",
+    "concept_bank": "Canonical concept names, grouping metadata, alias counts, concept prompts, sentiment labels, and aggregate prevalence scopes only.",
+    "concept_sentiment": "Concept-level human sentiment annotations from three annotators; no post text is exported.",
+    "single_multi_mentions": "Post-level mention multiplicity is exported only as aggregate monthly and group counts."
+  },
+  "sources": [
+    {
+      "id": "paper_pdf",
+      "path": "14459_Expectation_Backlash_Rec (1).pdf",
+      "sha256": "07d819d07f1e43f89b98b9c1d480edc1d74c879607efcf44368fe2edf3a98c3c",
+      "size_bytes": 736923,
+      "mtime_utc": "2026-07-10T10:13:28.778164+00:00"
+    },
+    {
+      "id": "paper_tex",
+      "path": "insights/writing_paper/final_acl.tex",
+      "sha256": "968fdbc2aaf897264f818299dc93b0fc7025365c58df8833c7996f431545334c",
+      "size_bytes": 233633,
+      "mtime_utc": "2026-06-16T21:02:22.236184+00:00"
+    },
+    {
+      "id": "paper_numbers",
+      "path": "insights/writing_paper/single_source_of_truth_data/paper_numbers_provenance.txt",
+      "sha256": "5bd32c59e5784b4facf94b8da9acab80e7d0a4c81c9f93cdbbe42146996366c6",
+      "size_bytes": 9049,
+      "mtime_utc": "2026-05-10T15:18:13.221414+00:00"
+    },
+    {
+      "id": "model_mentions_summary",
+      "path": "insights/writing_paper/single_source_of_truth_data/model_mentions_single_source_summary.csv",
+      "sha256": "0abd1caa79dfc4150ff3dd4019fe81a78d280f2c08cc1f119b05d54816ee7ee1",
+      "size_bytes": 840,
+      "mtime_utc": "2026-04-25T17:06:17.292703+00:00",
+      "rows": 1,
+      "columns": [
+        "event_rows",
+        "event_unique_posts",
+        "post_mapping_rows",
+        "post_mapping_unique_posts",
+        "source_mentions_csv",
+        "source_post_counts_csv",
+        "output_event_parquet",
+        "output_post_mapping_parquet"
+      ]
+    },
+    {
+      "id": "concept_summary",
+      "path": "insights/writing_paper/single_source_of_truth_data/concept_submission_mapping_single_source_of_truth_summary.csv",
+      "sha256": "a9aef01438a681faac3e5602f8853111b9d444352de176446154b11fe6cb6f00",
+      "size_bytes": 705,
+      "mtime_utc": "2026-04-25T17:19:45.971950+00:00",
+      "rows": 1,
+      "columns": [
+        "rows",
+        "unique_posts",
+        "unique_concepts",
+        "positive_strict_rows",
+        "has_model_mentions_provider",
+        "has_model_mentions_generation",
+        "has_model_mentions_generation_hier",
+        "source_concept_parquet",
+        "source_model_mapping_parquet",
+        "output_parquet"
+      ]
+    },
+    {
+      "id": "canonical_concepts",
+      "path": "insights/writing_paper/single_source_of_truth_data/canonical_concepts_with_meta_concepts_and_merge_flags.csv",
+      "sha256": "80d914eeaef08533e235cf9b743278e3d041cb3bfd98ef07165b5e98aa894cd1",
+      "size_bytes": 139967,
+      "mtime_utc": "2026-05-05T08:41:44.349524+00:00",
+      "rows": 236,
+      "columns": [
+        "canonical_id",
+        "canonical_name",
+        "aliases",
+        "prompt_examples",
+        "meta_concepts",
+        "mid_level_concept",
+        "dedup_status",
+        "merged_into_id",
+        "merged_into_name",
+        "merge_group",
+        "merge_confidence",
+        "merge_rationale",
+        "is_bidirectional"
+      ]
+    },
+    {
+      "id": "concept_mapping",
+      "path": "insights/writing_paper/single_source_of_truth_data/concept_submission_mapping_single_source_of_truth_strict_gt_0_5_unresolved_removed.parquet",
+      "sha256": "a71968d9de272e09d0b57106f0b80fc951f5caf5768564783e1c606cf7c23354",
+      "size_bytes": 1399340412,
+      "mtime_utc": "2026-05-11T12:13:19.966528+00:00"
+    },
+    {
+      "id": "provider_comention",
+      "path": "insights/writing_paper/single_source_of_truth_data/provider_comention_jaccard_matrix.csv",
+      "sha256": "c661c565fcf4e44c4716edbeae01bad11aec3348cd068ba019dd3ffbbab388b3",
+      "size_bytes": 723,
+      "mtime_utc": "2026-05-25T19:30:22.431052+00:00",
+      "rows": 6,
+      "columns": [
+        "Unnamed: 0",
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "xAI",
+        "Meta",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "mention_level_metrics",
+      "path": "insights/paper_literal_entity_4level_eval_400_hand_annotated_2026-02-19_mt3096_t00/evaluation/mention_level_metrics.json",
+      "sha256": "678fab6760f3c188cf195bba17f626c92d1dbdc5e2277f41129c67f3c25f3c5f",
+      "size_bytes": 1455,
+      "mtime_utc": "2026-04-16T14:28:21.885771+00:00"
+    },
+    {
+      "id": "post_level_metrics",
+      "path": "insights/paper_literal_entity_4level_eval_400_hand_annotated_2026-02-19_mt3096_t00/evaluation/post_level_metrics.json",
+      "sha256": "3b91bf2aef7d4c83442bcf4e6b5221a94d9fa880af59751a79c4f8e6a2a82ac7",
+      "size_bytes": 445,
+      "mtime_utc": "2026-04-16T14:28:21.885771+00:00"
+    },
+    {
+      "id": "sentiment_filtered",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/filtered_data/llm_sentiment_prompt_v2_full_run__excluding_reddit_post_hint_link__n185181.parquet",
+      "sha256": "3814ebe55b68dec66cd732c5ee81f70c7c8076768390ef50e9158650aa2a276c",
+      "size_bytes": 3608731,
+      "mtime_utc": "2026-05-19T12:48:34.127719+00:00"
+    },
+    {
+      "id": "sentiment_weekly",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/provider_generation_sentiment_figures/llm_sentiment_weekly_provider_share_lines.csv",
+      "sha256": "6eeeaff5785c30bffc18a3afb0965140141b2300348d12300f99ee212eb7e261",
+      "size_bytes": 102367,
+      "mtime_utc": "2026-05-19T12:48:37.382714+00:00",
+      "rows": 889,
+      "columns": [
+        "week",
+        "negative",
+        "neutral",
+        "positive",
+        "n_posts",
+        "positive_rate",
+        "positive_rolled",
+        "neutral_rate",
+        "neutral_rolled",
+        "negative_rate",
+        "negative_rolled",
+        "provider"
+      ]
+    },
+    {
+      "id": "sentiment_distribution_provider",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/provider_generation_sentiment_figures/llm_sentiment_distribution_by_provider.csv",
+      "sha256": "1fd1fb4d825ec5da4406efedd6dbdb45edbbbc2d7f93815ee08877bf74a26799",
+      "size_bytes": 911,
+      "mtime_utc": "2026-05-19T12:48:34.545718+00:00",
+      "rows": 9,
+      "columns": [
+        "provider",
+        "negative",
+        "neutral",
+        "positive",
+        "n_posts",
+        "positive_pct",
+        "neutral_pct",
+        "negative_pct",
+        "provider_label"
+      ]
+    },
+    {
+      "id": "sentiment_distribution_generation",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/provider_generation_sentiment_figures/llm_sentiment_distribution_by_provider_generation.csv",
+      "sha256": "d4b5f131ec993ab74a6d81130a5101365c4dbc41dc92413587efcb9e12ce18d8",
+      "size_bytes": 5152,
+      "mtime_utc": "2026-05-19T13:49:00.844634+00:00",
+      "rows": 48,
+      "columns": [
+        "provider",
+        "generation",
+        "negative",
+        "neutral",
+        "positive",
+        "n_posts",
+        "positive_pct",
+        "neutral_pct",
+        "negative_pct",
+        "release_date",
+        "sort_date"
+      ]
+    },
+    {
+      "id": "sentiment_trends",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/provider_sentiment_theilsen_trends/provider_sentiment_theilsen_trend_estimates__weekly_min_posts_20__hamed_rao.csv",
+      "sha256": "912162cc119b7f7f81490b13a443e4ac1767c72e543789f0e5e49af81b8bd06d",
+      "size_bytes": 5938,
+      "mtime_utc": "2026-05-24T22:46:28.786042+00:00",
+      "rows": 18,
+      "columns": [
+        "provider",
+        "provider_label",
+        "sentiment",
+        "sentiment_label",
+        "weeks",
+        "first_week",
+        "last_week",
+        "observed_months",
+        "n_posts_total",
+        "mean_weekly_posts",
+        "slope_pp_per_week",
+        "slope_pp_per_month",
+        "total_change_pp",
+        "kendall_tau",
+        "p_value_hamed_rao",
+        "z_hamed_rao",
+        "trend_hamed_rao",
+        "h_hamed_rao",
+        "scipy_calendar_slope_pp_per_month",
+        "scipy_calendar_low_pp_per_month",
+        "scipy_calendar_high_pp_per_month",
+        "slope_delta_table_minus_calendar"
+      ]
+    },
+    {
+      "id": "release_sentiment",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/release_window_positive_negative_delta_scatters/prompt_v2_release_window_positive_vs_negative_delta_scatter_points__excluding_deepseek_v2_zoomed.csv",
+      "sha256": "4b0b752fbe78330b872703181a60b85dcc2ec16431133f004322f55989ea9b61",
+      "size_bytes": 4873,
+      "mtime_utc": "2026-05-24T09:47:23.595732+00:00",
+      "rows": 34,
+      "columns": [
+        "provider",
+        "provider_key",
+        "model",
+        "generation",
+        "release_date",
+        "window_days",
+        "n_pre",
+        "n_post",
+        "negative_delta_pp",
+        "delta_pp_neutral",
+        "positive_delta_pp",
+        "negative_post_pct",
+        "post_pct_neutral",
+        "positive_post_pct",
+        "negative_pre_pct",
+        "pre_pct_neutral",
+        "positive_pre_pct",
+        "window_total_posts",
+        "source_status"
+      ]
+    },
+    {
+      "id": "release_sentiment_manifest",
+      "path": "insights/writing_paper/llm_sentiment/full_run_prompt_v2_replots_excluding_reddit_post_hint_link/release_window_visualizations_shared_data_manifest.txt",
+      "sha256": "abbb754b64211fa0764f6abd5dfc0e0a1540cb3226e23ccbc2ab3e3a7a35d73b",
+      "size_bytes": 1302,
+      "mtime_utc": "2026-05-20T07:25:06.645683+00:00"
+    },
+    {
+      "id": "release_concepts",
+      "path": "insights/writing_paper/intervention_provider_window/provider_provider/entity_source/iqr_coverage/single_mention/selected_interventions_top5/stacked/stacked_data.csv",
+      "sha256": "9e6ac97d59d05390ee775ba224c664d97847891e687be7951005bbf800f00435",
+      "size_bytes": 13578,
+      "mtime_utc": "2026-05-22T13:55:53.224940+00:00",
+      "rows": 100,
+      "columns": [
+        "provider",
+        "model",
+        "release_date",
+        "window_days",
+        "concept",
+        "direction",
+        "is_emerging",
+        "is_going_away",
+        "pre_cov_pct",
+        "post_cov_pct",
+        "delta_pp",
+        "n_pre_posts",
+        "n_post_posts",
+        "n_concept_pre",
+        "n_concept_post",
+        "n_posts_in_window_for_concept",
+        "pos_share",
+        "neutral_share",
+        "neg_share"
+      ]
+    },
+    {
+      "id": "release_concept_prompts",
+      "path": "insights/writing_paper/intervention_provider_window/provider_provider/entity_source/iqr_coverage/single_mention/selected_interventions_top5/all_selected_interventions_top5.csv",
+      "sha256": "6fb85e177792a4479ffe2ffc24726ea317651091ceef085121234370b0f7c0fb",
+      "size_bytes": 18809,
+      "mtime_utc": "2026-05-21T20:12:24.829594+00:00",
+      "rows": 100,
+      "columns": [
+        "model",
+        "concept",
+        "pre_cov",
+        "post_cov",
+        "delta_pp",
+        "direction",
+        "prompt",
+        "is_bidirectional"
+      ]
+    },
+    {
+      "id": "monthly_level_prevalence",
+      "path": "insights/llm_mentions_full_analysis/tables/monthly_level_prevalence_all.csv",
+      "sha256": "8e6abd900da651bdbf6bd1b67b79dfe3eb24932a04e97e7b1ceadd0785b4e7cc",
+      "size_bytes": 196961,
+      "mtime_utc": "2026-04-16T14:28:21.881771+00:00",
+      "rows": 2445,
+      "columns": [
+        "month",
+        "level",
+        "value",
+        "mention_count",
+        "mention_share_within_level",
+        "post_count",
+        "post_share_within_month",
+        "month_total_posts",
+        "rank_within_month"
+      ]
+    },
+    {
+      "id": "monthly_leaders_per_level",
+      "path": "insights/llm_mentions_full_analysis/tables/monthly_leaders_per_level.csv",
+      "sha256": "bb9084ef8d28393de97c0c424167bca54e1e04ab51cf1aee872f36f03658410e",
+      "size_bytes": 11742,
+      "mtime_utc": "2026-04-16T14:28:21.880771+00:00",
+      "rows": 153,
+      "columns": [
+        "month",
+        "level",
+        "value",
+        "mention_count",
+        "mention_share_within_level",
+        "post_count",
+        "post_share_within_month",
+        "month_total_posts",
+        "rank_within_month"
+      ]
+    },
+    {
+      "id": "overall_level_prevalence",
+      "path": "insights/llm_mentions_full_analysis/tables/overall_level_prevalence.csv",
+      "sha256": "9e5d907b4bfdeea7b29c3210bc5a77cf29bf6f2eeb43b41755454f763554c363",
+      "size_bytes": 10557,
+      "mtime_utc": "2026-04-16T14:28:21.881771+00:00",
+      "rows": 144,
+      "columns": [
+        "provider",
+        "mention_count",
+        "level",
+        "mention_share",
+        "post_count",
+        "post_share",
+        "rank",
+        "family",
+        "generation",
+        "tier"
+      ]
+    },
+    {
+      "id": "subreddit_level_prevalence",
+      "path": "insights/llm_mentions_full_analysis/tables/subreddit_level_prevalence_all.csv",
+      "sha256": "f727d6b837f53a02504115a0cb9271f6fa736bb6829cfb26d18ad99aef893966",
+      "size_bytes": 108289,
+      "mtime_utc": "2026-04-16T14:28:21.881771+00:00",
+      "rows": 1332,
+      "columns": [
+        "subreddit",
+        "level",
+        "value",
+        "mention_count",
+        "mention_share_within_level",
+        "post_count",
+        "post_share_within_subreddit",
+        "subreddit_total_posts",
+        "rank_within_subreddit"
+      ]
+    },
+    {
+      "id": "subreddit_top3_per_level",
+      "path": "insights/llm_mentions_full_analysis/tables/subreddit_top3_per_level.csv",
+      "sha256": "0d54961def396b8e3ec5fe7da52d137b6cfaa1e1586f02643c958a7683da4e5d",
+      "size_bytes": 17938,
+      "mtime_utc": "2026-04-16T14:28:21.882771+00:00",
+      "rows": 235,
+      "columns": [
+        "subreddit",
+        "level",
+        "value",
+        "mention_count",
+        "mention_share_within_level",
+        "post_count",
+        "post_share_within_subreddit",
+        "subreddit_total_posts",
+        "rank_within_subreddit"
+      ]
+    },
+    {
+      "id": "subreddit_coverage",
+      "path": "insights/llm_mentions_full_analysis/research_dashboard_data/subreddit_coverage.csv",
+      "sha256": "bdef620241e5ff3b3b2333eb45c21a84f8922bb6667047be356cd1ffeaebc6c7",
+      "size_bytes": 1318,
+      "mtime_utc": "2026-04-16T14:28:21.876771+00:00",
+      "rows": 20,
+      "columns": [
+        "subreddit",
+        "total_posts",
+        "posts_with_terms",
+        "coverage_rate",
+        "multi_model_posts",
+        "multi_model_rate"
+      ]
+    },
+    {
+      "id": "provider_diversity",
+      "path": "insights/llm_mentions_full_analysis/research_dashboard_data/provider_diversity_indices.csv",
+      "sha256": "6db70fab11480da2bc8e4aa8921d692d804629fc973611bc2f960599ac93db9b",
+      "size_bytes": 1816,
+      "mtime_utc": "2026-04-16T14:28:21.869771+00:00",
+      "rows": 20,
+      "columns": [
+        "subreddit",
+        "provider_entropy",
+        "provider_entropy_normalized",
+        "provider_hhi",
+        "provider_js_specialization"
+      ]
+    },
+    {
+      "id": "family_diversity",
+      "path": "insights/llm_mentions_full_analysis/research_dashboard_data/family_diversity_indices.csv",
+      "sha256": "7de769b35e6128b97c07e1bd8bbde71bf8a84484da39095293846cdbb6265117",
+      "size_bytes": 1383,
+      "mtime_utc": "2026-04-16T14:28:21.544772+00:00",
+      "rows": 20,
+      "columns": [
+        "subreddit",
+        "family_entropy",
+        "family_entropy_normalized",
+        "family_hhi"
+      ]
+    },
+    {
+      "id": "provider_conditional_matrix",
+      "path": "insights/llm_mentions_full_analysis/research_dashboard_data/provider_conditional_matrix.csv",
+      "sha256": "de7a26e8993772af1fd11c489bba30cf924e96aa2130bc03834d9c63f88486a7",
+      "size_bytes": 1756,
+      "mtime_utc": "2026-04-16T14:28:21.869771+00:00",
+      "rows": 10,
+      "columns": [
+        "Unnamed: 0",
+        "openai",
+        "google",
+        "anthropic",
+        "xai",
+        "deepseek",
+        "meta",
+        "alibaba",
+        "mistral",
+        "moonshot-ai",
+        "deepseek-r1"
+      ]
+    },
+    {
+      "id": "model_pair_combinations",
+      "path": "insights/llm_mentions_full_analysis/research_dashboard_data/model_pair_combinations.csv",
+      "sha256": "315695163ac57756ef514ee046fa1cb880fbf8034e62844a172d68c90a0c721c",
+      "size_bytes": 301020,
+      "mtime_utc": "2026-04-16T14:28:21.865771+00:00",
+      "rows": 5324,
+      "columns": [
+        "model_a",
+        "model_b",
+        "co_post_count"
+      ]
+    },
+    {
+      "id": "concept_sentiment_majority",
+      "path": "insights/writing_paper/single_source_of_truth_data/concept_sentiment_annotations_final_concept_prompt_majority.csv",
+      "sha256": "73126b971c3004fbb14051d0719a208feafa1a8fed3976794b9897218782c5de",
+      "size_bytes": 36315,
+      "mtime_utc": "2026-05-12T14:32:58.095387+00:00",
+      "rows": 236,
+      "columns": [
+        "concept",
+        "prompt",
+        "majority"
+      ]
+    },
+    {
+      "id": "concept_sentiment_final",
+      "path": "insights/writing_paper/single_source_of_truth_data/concept_sentiment_annotations_final.csv",
+      "sha256": "cbf7bd1d5408745130f75a739a8d215cb151d20743b64e9ef82ac59674f59a97",
+      "size_bytes": 45204,
+      "mtime_utc": "2026-05-11T21:50:29.452031+00:00",
+      "rows": 236,
+      "columns": [
+        "concept",
+        "prompt",
+        "is_bidirectional",
+        "yury",
+        "savvas",
+        "vahid",
+        "majority",
+        "agreement"
+      ]
+    },
+    {
+      "id": "model_mentions_post_mapping",
+      "path": "insights/writing_paper/single_source_of_truth_data/model_mentions_post_mapping_unresolved_removed.parquet",
+      "sha256": "f6bd6c284189022845a2465d0a0711af6fc0a9a400f8b5bf87829f62f168b099",
+      "size_bytes": 8754319,
+      "mtime_utc": "2026-05-11T13:30:12.874536+00:00"
+    }
+  ],
+  "generated_files": [
+    "paper_site/expectation-backlash-recovery/data/paper_numbers.json",
+    "paper_site/expectation-backlash-recovery/data/model_extraction.json",
+    "paper_site/expectation-backlash-recovery/data/sentiment_timeseries.json",
+    "paper_site/expectation-backlash-recovery/data/sentiment_trends.json",
+    "paper_site/expectation-backlash-recovery/data/release_sentiment_deltas.json",
+    "paper_site/expectation-backlash-recovery/data/concept_prevalence.json",
+    "paper_site/expectation-backlash-recovery/data/concept_release_deltas.json",
+    "paper_site/expectation-backlash-recovery/data/discussion_prevalence.json",
+    "paper_site/expectation-backlash-recovery/data/subreddit_stats.json",
+    "paper_site/expectation-backlash-recovery/data/concept_bank.json",
+    "paper_site/expectation-backlash-recovery/data/concept_sentiment.json",
+    "paper_site/expectation-backlash-recovery/assets/paper.pdf",
+    "paper_site/expectation-backlash-recovery/data/manifest.json"
+  ]
+}

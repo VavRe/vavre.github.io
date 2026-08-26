@@ -44,13 +44,19 @@
               <p><i class="mr-2 fas fa-envelope"></i>vahyd@live.com</p>
             </div>
             <p class="mt-6 leading-relaxed text-gray-800">
-              I am a First-year PhD Candidate at the <a href="https://www.tudelft.nl/en/tpm" class="font-semibold insist">Faculty of Technology, Policy and Management (TPM), TU Delft</a>, specializing in the intersection of NLP, Information Retrieval, and Computational Social Science. I am supervised by <a href="https://zsavvas.github.io/" class="font-semibold insist">Dr. Savvas Zannettou</a> and <a class="font-semibold insist" href="https://zhauniarovich.com/">Dr. Yury Zhauniarovich</a>.
+              I am a First-year PhD Candidate at the <a href="https://www.tudelft.nl/en/tpm" class="font-semibold insist">Faculty of Technology, Policy and Management (TPM), TU Delft</a>, supervised by <a href="https://zsavvas.github.io/" class="font-semibold insist">Dr. Savvas Zannettou</a> and <a class="font-semibold insist" href="https://zhauniarovich.com/">Dr. Yury Zhauniarovich</a>.
             </p>
             <p class="mt-4 leading-relaxed text-gray-800">
-              Grounded in a rigorous engineering background (B.Sc. Mechanical, M.Sc. AI) and professional experience as an AI/Software Engineer, I approach research with a builder's mindset. My work is driven by a deep interest in the <span class="font-semibold insist">safe integration of AI technology in our lives</span>, particularly from a social perspective. I believe in first empirically studying the underlying notions and phenomena in large-scale data, building a rigorous understanding of how AI systems interact with and shape society. These findings then inform the design of approaches, architectures, and actionable recommendations for builders, designers, and policymakers alike.
+              My research focuses on <span class="font-semibold insist">safety in human&ndash;AI interaction</span>, particularly Conversational AI Systems. I study how people interact with, perceive, and are affected by these systems, as well as the behavior of Conversational AI Systems themselves, with the goal of understanding and making these interactions safer.
             </p>
             <p class="mt-4 leading-relaxed text-gray-800">
-              Outside of research, I enjoy reading classic literature, Persian and Russian are my personal favorites. I was once a Dota 2 Immortal (a title I wear with mixed pride), and whenever the Dutch weather allows, you'll find me biking around the beautiful Netherlands. Feel free to contact me if you see anything interesting here :D
+              Grounded in a rigorous engineering background and professional experience as an AI/Software Engineer, I approach research with a builder's mindset.
+            </p>
+            <p class="mt-4 leading-relaxed text-gray-800">
+              My work has been published at ACL, EMNLP, NAACL, and AAAI ICWSM. I also regularly serve the research community as an Area Chair, Session Chair, and Reviewer for conferences including ACL, EMNLP, NeurIPS, AAAI, and ECIR.
+            </p>
+            <p class="mt-4 leading-relaxed text-gray-800">
+              On a personal note, I enjoy classic literature, especially Persian and Russian literature, and I was once a Dota 2 Immortal&mdash;a title I wear with mixed pride. Please don't hesitate to reach out if you see something interesting here :D I'm always open to new possibilities and experiences.
             </p>
           </div>
         </div>
