@@ -44,7 +44,7 @@
               <p><i class="mr-2 fas fa-envelope"></i>vahyd@live.com</p>
             </div>
             <p class="mt-6 leading-relaxed text-gray-800">
-              I am a First-year PhD Candidate at the <a href="https://www.tudelft.nl/en/tpm" class="font-semibold insist">Faculty of Technology, Policy and Management (TPM), TU Delft</a>, supervised by <a href="https://zsavvas.github.io/" class="font-semibold insist">Dr. Savvas Zannettou</a> and <a class="font-semibold insist" href="https://zhauniarovich.com/">Dr. Yury Zhauniarovich</a>.
+              I am a First-year PhD Candidate at <a href="https://cysafelab.org/" class="font-semibold insist">CySafe Lab</a>, TU Delft, supervised by <a href="https://zsavvas.github.io/" class="font-semibold insist">Dr. Savvas Zannettou</a> and <a class="font-semibold insist" href="https://zhauniarovich.com/">Dr. Yury Zhauniarovich</a>.
             </p>
             <p class="mt-4 leading-relaxed text-gray-800">
               My research focuses on <span class="font-semibold insist">safety in human&ndash;AI interaction</span>, particularly Conversational AI Systems. I study how people interact with, perceive, and are affected by these systems, as well as the behavior of Conversational AI Systems themselves, with the goal of understanding and making these interactions safer. Grounded in a rigorous engineering background and professional experience as an AI/Software Engineer, I approach research with a builder's mindset.
