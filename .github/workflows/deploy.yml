@@ -43,5 +43,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs
           publish_branch: main
-          cname: vavre.github.io
+          cname: vavre.me
           commit_message: 'Deploy from dev branch'

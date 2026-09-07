@@ -20,10 +20,9 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-        { rel: 'stylesheet', href: 'https://kit.fontawesome.com/6fbcb97dd8.css', crossorigin: 'anonymous' }
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css', crossorigin: 'anonymous' }
       ],
       script: [
-        { src: 'https://kit.fontawesome.com/6fbcb97dd8.js', crossorigin: 'anonymous' },
         { src: 'https://www.googletagmanager.com/gtag/js?id=G-KDFBE13E98', async: true },
         {
           children: `
