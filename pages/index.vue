@@ -29,6 +29,9 @@
                 <a href="https://www.linkedin.com/in/vavre/" class="text-gray-600 hover:text-gray-800">
                   <i class="fab fa-linkedin"></i>
                 </a>
+                <a href="https://scholar.google.com/citations?user=CTiPTggAAAAJ&hl=en" class="text-gray-600 hover:text-gray-800">
+                  <i class="fas fa-graduation-cap"></i>
+                </a>
                 <a href="https://x.com/vavredev" class="text-gray-600 hover:text-gray-800">
                   <i class="fab fa-twitter"></i>
                 </a>

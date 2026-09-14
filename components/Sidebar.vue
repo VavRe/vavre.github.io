@@ -12,6 +12,9 @@
         <a href="https://www.linkedin.com/in/vavre/" class="text-primary-700">
           <i class="text-2xl fab fa-linkedin"></i>
         </a>
+        <a href="https://scholar.google.com/citations?user=CTiPTggAAAAJ&hl=en" class="text-primary-600">
+          <i class="text-2xl fas fa-graduation-cap"></i>
+        </a>
         <a href="https://x.com/vavredev" class="text-primary-400">
           <i class="text-2xl fab fa-twitter"></i>
         </a>
