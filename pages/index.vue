@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-4 pt-[5rem] md:pt-4 flex flex-col md:flex-row">
+  <div class="container mx-auto p-4 pt-[5rem] md:pt-4 flex flex-col md:flex-row md:items-start">
     <!-- Mobile Menu Toggle -->
     <div class="fixed top-0 left-0 z-40 self-stretch w-full px-2 py-4 bg-white border shadow-lg border-primary-50 md:hidden flex items-center justify-between">
       <div class="z-50 ml-4 hamburger cursor-pointer" @click="toggleSidebar">
